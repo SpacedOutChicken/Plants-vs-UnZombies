@@ -42,7 +42,7 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 50,
-		"upgradesTo": "Militia",
+		"upgradesTo": "Musketman",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Gunpowder",
 		"uniques": ["+[50]% Strength vs [Mounted]"],

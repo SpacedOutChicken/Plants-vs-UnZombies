@@ -1,6 +1,21 @@
 [	
 	// Base terrains
 	{
+		"name": "Ocean",
+		"type": "Water",
+		"food": 1,
+		"gold": 1,
+		"movementCost": 1,
+		"RGB": [45,108,145]
+	},
+	{
+		"name": "Coast",
+		"type": "Water",
+		"food": 1,
+		"movementCost": 1,
+		"RGB": [107,167,193]
+	},
+	{
 		"name": "Grassland",
 		"type": "Land",
 		"food": 2,

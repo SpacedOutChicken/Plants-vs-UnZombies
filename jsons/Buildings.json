@@ -46,7 +46,6 @@
 		"name": "Temple",
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Temples"

@@ -90,7 +90,7 @@
 	{
 		"name": "Railroad",
 		"turnsToBuild": 4,
-		"techRequired": "Railroad",
+		"techRequired": "Driving",
 		"uniques": ["Can be built outside your borders",
 			"Costs [2] gold per turn when in your territory"]
 	},
@@ -100,7 +100,7 @@
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
 		"terrainsCanBeBuiltOn": ["Forest"],
-		"techRequired": "Mining",
+		"techRequired": "Digging",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
@@ -108,7 +108,7 @@
 		"name": "Remove Jungle",
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Jungle"],
-		"techRequired": "Mining",
+		"techRequired": "Digging",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
