@@ -1,0 +1,115 @@
+[	
+	// Luxury resources
+	{
+		"name": "Wheat",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Cotton",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Dyes",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Algae",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Coral",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Bananas",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"food": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"food": 2,"production": -1}
+	},
+	{
+		"name": "Tubers",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Tundra","Grassland"],
+		"food": 1,
+		"revealedBy": "Botany",
+		"improvement": "Farm",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Insects",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Fallout"],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Fungus",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill","Jungle"],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"culture": 1}
+	},
+// Strategic resources
+	{
+		"name": "Oil",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow","Coast"],
+		"production": 1,
+		"improvement": "Oil well",
+		"improvementStats": {"production": 1},
+		"building": "Oil Refinery"
+	},		
+	{
+		"name": "Coal",
+		"resourceType": "Strategic",
+		"revealedBy": "Writing",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Aluminum",
+		"resourceType": "Strategic",
+		"revealedBy": "Writing",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Uranium",
+		"resourceType": "Strategic",
+		"revealedBy": "Writing",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Forest","Desert","Marsh","Grassland"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 2}
+	}
+	
+	
+]

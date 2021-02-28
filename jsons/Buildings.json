@@ -1,0 +1,80 @@
+[
+	// capital uniques
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"food": 2,
+		"production": 3,
+		"cityStrength": 1,
+		"cityHealth": 50,
+		"science": 3,
+		"gold": 1,
+		"culture": 1,
+		"cost": 1,
+		"uniques": ["Indicates the capital city",
+			"Provides a sum of gold each time you spend a Great Person",
+			"Unhappiness from population decreased by [100]%",
+			"Gain a free [Living Room] [in all cities]",
+			"Notified of new Barbarian encampments",
+			"100 Gold for discovering a Natural Wonder (bonus enhanced to 500 Gold if first to discover it)"],
+		"replacementTextForUniques": "Indicates the capital city"
+	},		
+	{
+		"name": "Living Room",
+		"happiness": 1,
+		"cost": 1,
+		"uniques": ["Remove extra unhappiness from annexed cities","Unsellable"],
+		"replacementTextForUniques": "Nothing like a cozy living room to brighten your day."
+	},
+	{
+		"name": "Posess the Fountain of Youth",
+		"cost": 100,
+		"isWonder": true,
+		"uniques": ["Must have an owned [Fountain of Youth] within [3] tiles",
+			"[All] units gain the [Rejuvenation] promotion"]
+	},
+	{
+		"name": "Posess the Great Barrier Reef",
+		"cost": 100,
+		"isWonder": true,
+		"uniques": ["Must have an owned [Great Barrier Reef] within [3] tiles",
+			"All military naval units receive +1 movement and +1 sight"]
+	},
+
+
+	{
+		"name": "Temple",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Temples"
+	},
+	{
+		"name": "Workshop", 
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Workshops"
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"science": 1,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 1,
+		"uniques": ["[+1 Science] Per [2] Population in this city"],
+		"requiredTech": "Civilization"
+	},
+	{
+		"name": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Civilization"
+	}
+]

@@ -1,0 +1,177 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Pre-Apocalypse era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"techs": [
+			{
+				"name": "Civilization",
+				"row": 5,
+				"quote": "We had it once. It was nice.",
+				"uniques": ["Starting tech"]
+			}
+		]	
+	},
+    {
+        "columnNumber": 1,
+		"era": "Pre-Apocalypse era",
+		"techCost": 20, 
+		"buildingCost": 40,
+		"techs": [
+            {
+				"name": "Sailing",
+				"row": 2,
+				"prerequisites": ["Civilization"],
+				"quote": "We had boats.",
+                        "uniques": ["Starting tech","Enables embarkation for land units","Enables embarked units to enter ocean tiles"]
+			},
+			{
+				"name": "Farming",
+				"row": 4,
+				"prerequisites": ["Civilization"],
+				"quote": "We had farms.",
+                        "uniques": ["Starting tech"]
+			},
+			{
+				"name": "Driving",
+				"row": 6,
+				"prerequisites": ["Civilization"],
+				"quote": "We had roads.",
+                        "uniques": ["Starting tech","Roads connect tiles across rivers"]
+			},
+			{
+				"name": "Digging",
+				"row": 8,
+				"prerequisites": ["Civilization"],
+				"quote": "We had mines.",
+                        "uniques": ["Starting tech"]
+			}
+            ]
+    },
+    {
+		"columnNumber": 2,
+		"era": "Apocalypse era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"techs": [
+			{
+				"name": "Nuclear War",
+				"row": 5,
+                        "prerequisites": ["Sailing","Farming","Driving","Digging"],
+				"quote": "Then we sorta lost it all.",
+				"uniques": ["Starting tech"]
+			}
+		]	
+	},
+    {
+        "columnNumber": 3,
+		"era": "Apocalypse era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"techs": [
+			{
+				"name": "Up from the Ashes",
+				"row": 5,
+                        "prerequisites": ["Zombie Outbreak"],
+				"quote": "So now we're rebuilding.",
+				"uniques": ["Starting tech"]
+			}
+		]
+    },
+    {
+		"columnNumber": 4,
+		"era": "Starting Over era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Green Tech",
+				"row": 1,
+				"prerequisites": ["Up from the Ashes"],
+				"quote": "Green the earth to save the earth!",
+                        "uniques": ["Incompatible with [Death Tech]",
+							"Incompatible with [Normal Tech]",
+							"+25% bonus vs Barbarians",
+							"Enables conversion of city production to science",
+							"Enables Research agreements",
+							"Enables Open Borders agreements"]
+			},
+			{
+				"name": "Basics",
+				"row": 5,
+				"prerequisites": ["Up from the Ashes"],
+				"quote": "Shall we try civilization again?",
+                        "uniques": ["Starting tech",
+							"Enables conversion of city production to gold"]
+			},
+			{
+				"name": "Death Tech",
+				"row": 9,
+				"prerequisites": ["Up from the Ashes"],
+				"quote": "None shall be saved. Devour all!",
+                        "uniques": ["Incompatible with [Green Tech]",
+							"Incompatible with [Normal Tech]",
+							"City-State Influence degrades [-100]% slower",
+							"Gifts of Gold to City-States generate [-100]% more Influence",
+							"Resting point for Influence with City-States is increased by [-60]",
+							"+30% Strength when fighting City-State units and cities",
+							"+15% Combat Strength for all units when attacking Cities"]
+			},
+			{
+				"name": "Normal Tech",
+				"row": 11,
+				"quote": "Not very special",
+				"prerequisites": ["Incompatible with [Green Tech]",
+					"Incompatible with [Death Tech]",
+					"Not recommended for your civilization"]
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era":"Starting Over era",
+		"techCost": 35, 
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Temples",
+				"row": 2,
+				"quote": "Believe"
+			},
+			{
+				"name": "Workshops",
+				"row": 4,
+				"quote": "Work"
+			},
+			{
+				"name": "Gunpowder",
+				"row": 6,
+				"quote": "Pew pew pew!"
+			},
+			{
+				"name": "Sunshine",
+				"row": 8,
+				"quote": "Light is money"
+			}
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Future era",
+		"techCost": 20000,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": ["Gunpowder"],
+				"uniques": ["Free Great Person", "Can be continually researched"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			}
+		]	
+	}
+]

@@ -1,0 +1,423 @@
+[
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+	},
+
+
+	{
+		"name": "The Undead",
+		"leaderName": "The Mindless Horde",
+		"adjective": ["Undead"],
+		"preferredVictoryType": "Domination",
+		"style": "Undead",
+		
+		"startIntroPart1": "'When there's no more room in Hell, the dead will walk the earth.' - George A. Romero",
+		"startIntroPart2": "'Darkness falls across the land, the midnight hour is close at hand, creatures crawl in search of blood to terrorize y'all's neighborhood' - Vincent Price",
+		
+		"declaringWar": "BRAINS!",
+		"attacked": "Grrr!",
+		"defeated": "Urk!",
+		"introduction": "Brains...",
+		
+		"neutralHello": "Brains?",
+		"neutralLetsHearIt": "Talk?",
+		"neutralNo": "Bad...",
+		"neutralYes": "Good...",
+
+		"hateHello": "Grrr...",
+		"hateLetsHearIt": "Talk...",
+		"hateNo": "Hate!",
+		"hateYes": "Okay...",
+		
+		"afterPeace": "Mmmm....good brains.",
+		"tradeRequest": "T-...tr-...trade?",
+
+		"outerColor": [15,5,5],
+		"innerColor": [255,255,255],
+		"uniqueName": "The Great Infectious Horde",
+		"uniqueText": "",
+		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment", "50% chance of capturing defeated Barbarian naval units and earning 25 Gold",
+			"-[33]% [All] unit maintenance costs",
+			"+[15]% Production when constructing [military] units",
+			"+[-10]% Production when constructing [Wonders]",
+			"[All] units gain the [Undead] promotion",
+			"[non-air] units gain the [Breach the Walls] promotion",
+			"[Melee] units gain the [Eat the Living] promotion", "[Mounted] units gain the [Eat the Living] promotion", "[Armor] units gain the [Eat the Living] promotion", "[WaterMelee] units gain the [Eat the Living] promotion", "[Scout] units gain the [Eat the Living] promotion",
+			"[+3 Food, +2 Production, +2 Gold, +2 Happiness] from every [Graveyard]",
+			"+[10]% Strength if within [1] tiles of a [Graveyard]",
+			"+[-50]% [Science] in all cities",
+			"+[-50]% [Culture] in all cities",
+			"+[10]% combat bonus for units fighting in [Fallout]",
+			"Units fight as though they were at full strength even when damaged"],
+		"cities": ["Ground Zero"]
+	},
+	{
+		"name": "The Plant People",
+		"leaderName": "Green Man",
+		"adjective": ["Plant"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "TBA",
+		"startIntroPart2": "TBA",
+		"declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
+		"attacked": "You evil creature! My plants will slaughter you!",
+		"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
+		"introduction": "Greetings, stranger. I am Green Man, speaker for the Plant People. We seek peace with all, but we do not shrink from war.",
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "Does this trade work for you, my friend?",
+		"outerColor": [54,72,72],
+		"innerColor": [246,205,137],
+		"uniqueName": "In Tune with Green",
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
+			"+[20]% combat bonus for units fighting in [Friendly Land]"],
+		"cities": ["Onoondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
+			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
+			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
+			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"]
+	},
+	{
+		"name": "The Plant People"
+	},
+
+	/*
+	{
+		"name": "The Wraiths"
+	},
+
+	{
+		"name": "The Myconoids"
+	},*/
+
+	//City-States
+	{
+		"name": "Snafu",
+		"style": "",
+		"adjective": ["Snafu"],
+		"cityStateType": "Cultured",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [185,132,66],
+		"cities": ["Snafu"]
+	},
+	{
+		"name": "Youbou",
+		"style": "",
+		"adjective": ["Youbou"],
+		"cityStateType": "Cultured",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "And so the flower of Youbou falls to barbaric hands...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [62,197,252],
+		"cities": ["Youbou"]
+	},
+	{
+		"name": "Stoner",
+		"style": "",
+		"adjective": ["Stoner"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "May God grant me these last wishes - peace and prosperity for Stoner.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211, 220, 103],
+		"cities": ["Stoner"]
+	},
+	{
+		"name": "Salmon Arm",
+		"style": "",
+		"adjective": ["Salmon Arm"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [194,97,255],
+		"cities": ["Salmon Arm"]
+	},
+	{
+		"name": "Old Entrance",
+		"style": "",
+		"adjective": ["Old Entrance"],
+		"cityStateType": "Militaristic",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
+		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Old Entrance",
+		"defeated": "A lonely wind blows through the highlands today. A dirge for Old Entrance. Can you hear it?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Old Entrance"]
+	},
+	{
+		"name": "Legal",
+		"style": "",
+		"adjective": ["Legal"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
+		"attacked": "Why do we fight? Because the law demands it. Now, witness the power of the Legals!",
+		"defeated": "What treachery has struck us? No, what evil?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,69,0],
+		"cities": ["Legal"]
+	},
+	{
+		"name": "Vulcan",
+		"style": "",
+		"adjective": ["Vulcan"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "A wrong calculation, on my part.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,204,255],
+		"cities": ["Vulcan"]
+	},
+	{
+		"name": "Mirror",
+		"style": "",
+		"adjective": ["Mirror"],
+		"cityStateType": "Cultured",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the syrup after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,255,51],
+		"cities": ["Mirror"]
+	},
+	{
+		"name": "Bawlf",
+		"style": "",
+		"adjective": ["Bawlf"],
+		"cityStateType": "Cultured",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,0,76],
+		"cities": ["Bawlf"]
+	},
+	{
+		"name": "Happyland",
+		"style": "",
+		"adjective": ["Happyland"],
+		"cityStateType": "Militaristic",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "What a fine battle! Happyland is willing to serve you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [250,128,114],
+		"cities": ["Happyland"]
+	},
+	{
+		"name": "Climax",
+		"style": "",
+		"adjective": ["Climax"],
+		"cityStateType": "Militaristic",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [152,0,241],
+		"cities": ["Climax"]
+	},
+	{
+		"name": "Eyebrow",
+		"style": "",
+		"adjective": ["Eyebrow"],
+		"cityStateType": "Militaristic",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "Traitorous man! The Eyebrow peoples will not stand for such wanton abuse and slander - I shall have your head!",
+		"defeated": "Vile ruler, know that you 'won' this war in name only!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Eyebrow"]
+	},
+	{
+		"name": "Drinkwater",
+		"style": "",
+		"adjective": ["Drinkwater"],
+		"cityStateType": "Mercantile",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "May the Heavens forgive you for inflicting this humiliation to our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,255],
+		"cities": ["Drinkwater"]
+	},
+	{
+		"name": "Radville",
+		"style": "",
+		"adjective": ["Radville"],
+		"cityStateType": "Maritime",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "After thorough deliberation, Radville finds itself at a crossroads. Prepare yourself, for war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,204,204],
+		"cities": ["Radville"]
+	},
+	{
+		"name": "Forget",
+		"style": "",
+		"adjective": ["Forget"],
+		"cityStateType": "Maritime",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,153],
+		"cities": ["Forget"]
+	},
+	{
+		"name": "Fertile",
+		"style": "",
+		"adjective": ["Fertile"],
+		"cityStateType": "Cultured",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,0,255],
+		"cities": ["Fertile"]
+	},
+	{
+		"name": "Flin Flon",
+		"style": "",
+		"adjective": ["Flin Flon"],
+		"cityStateType": "Cultured",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51,102,0],
+		"cities": ["Flin Flon"]
+	},
+	{
+		"name": "Emo",
+		"style": "",
+		"adjective": ["Emo"],
+		"cityStateType": "Maritime",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,178,102],
+		"cities": ["Emo"]
+	},
+	{
+		"name": "Pain Court",
+		"style": "",
+		"adjective": ["Pain Court"],
+		"cityStateType": "Cultured",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Today, the Pain Court people obey you, but do not think this is over...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Pain Court"]
+	},
+	{
+		"name": "Punkeydoodles Corner",
+		"style": "",
+		"adjective": ["Punkeydoodles Corner"],
+		"cityStateType": "Maritime",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [96,96,96],
+		"cities": ["Punkeydoodles Corner"]
+	},
+	{
+		"name": "Tiny",
+		"style": "",
+		"adjective": ["Tiny"],
+		"cityStateType": "Cultured",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [204,102,0],
+		"cities": ["Tiny"]
+	},
+	{
+		"name": "Utopia",
+		"style": "",
+		"adjective": ["Utopia"],
+		"cityStateType": "Maritime",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Utopia, we can have no recourse but war!",
+		"attacked": "As we can reach no peaceful resolution with you, Utopia must turn, with reluctance, to war.",
+		"defeated": "I regret not defending my country to the last, although it was not of use.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,255,128],
+		"cities": ["Utopia"]
+	},
+	{
+		"name": "Purpleville",
+		"style": "",
+		"adjective": ["Purpleville"],
+		"cityStateType": "Militaristic",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Purpleville - not to my people!",
+		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,128,0],
+		"cities": ["Purpleville"]
+	},
+	{
+		"name": "Pontypool",
+		"style": "",
+		"adjective": ["Pontypool"],
+		"cityStateType": "Maritime",
+		"uniques": ["Starts with [Normal Tech]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conquerer. This tribe serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224,224,224],
+		"cities": ["Pontypool"]
+	},
+	
+	        
+
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0]
+	}
+	        	
+]

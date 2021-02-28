@@ -1,0 +1,92 @@
+[
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"uniques": ["Can build improvements on tiles"],
+		"cost": 70
+	},	
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 106,
+		"uniques": ["Founds a new city","Heal adjacent units for an additional 15 HP per turn"],
+		"hurryCostModifier": 20,
+		"requiredTech": "Green Tech"
+	},	
+	{
+		"name": "Work Boats",
+		"unitType": "WaterCivilian",
+		"movement": 4,
+		"cost": 15,
+		"requiredTech": "Sailing",
+		"uniques": ["May create improvements on water resources"],
+		"hurryCostModifier": 20
+	},
+	
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 12,
+		"cost": 25,		
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Spearman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 20,
+		"cost": 50,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Gunpowder",
+		"uniques": ["+[50]% Strength vs [Mounted]"],
+		"attackSound": "nonmetalhit"
+	},	
+	{
+		"name": "Musketman",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 30,
+		"cost": 60,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a wonder", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
+			"Great Person - [War]", "Unbuildable"],
+		"movement": 2
+	}
+]
