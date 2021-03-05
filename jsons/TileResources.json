@@ -1,5 +1,5 @@
 [	
-	// Luxury resources
+	// Bonus resources
 	{
 		"name": "Wheat",
 		"resourceType": "Luxury",
@@ -72,43 +72,73 @@
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1}
 	},
-// Strategic resources
 	{
-		"name": "Oil",
-		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow","Coast"],
-		"production": 1,
-		"improvement": "Oil well",
-		"improvementStats": {"production": 1},
-		"building": "Oil Refinery"
-	},		
+		"name": "Incense",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Desert"],
+		"gold": 2,
+		"culture": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Silk",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Spices",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Wine",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"gold": 2,
+		"culture": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Sugar",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Grassland","Marsh"],
+		"gold": 2,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Pearls",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1}
+	},
+	// Strategic resources
 	{
 		"name": "Coal",
 		"resourceType": "Strategic",
-		"revealedBy": "Digging",
+		"revealedBy": "Civilization",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill"],
 		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1}
-	},
-	{
-		"name": "Aluminum",
-		"resourceType": "Strategic",
-		"revealedBy": "Digging",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Hill"],
-		"production": 1,
-		"improvement": "Mine",
-		"improvementStats": {"production": 1}
-	},
-	{
-		"name": "Uranium",
-		"resourceType": "Strategic",
-		"revealedBy": "Digging",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Forest","Desert","Marsh","Grassland"],
-		"production": 1,
-		"improvement": "Mine",
 		"improvementStats": {"production": 2}
+	},
+	{
+		"name": "Oil",
+		"resourceType": "Strategic",
+		"revealedBy": "Civilization",
+		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
+		"production": 1,
+		"improvement": "Oil well",
+		"improvementStats": {"production": 3}
 	}
-	
-	
 ]

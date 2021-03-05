@@ -15,10 +15,10 @@
     "name": "Connect Resource",
     "description": "In order to make our civilizations stronger, connect [tileResource] to your trade network."
   },
-  /*{
+  {
     "name": "Construct Wonder",
     "description": "We recommend you to start building [wonder] to show the whole world your civilization strength."
-  },*/
+  },
   {
     "name": "Acquire Great Person",
     "description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson]."

@@ -7,7 +7,7 @@
 		"color": [0,0,255]
 	},
 	{
-		"name":"Merchant",
+		"name":"Gardener",
 		"gold":3,
 		"greatPersonPoints": {"gold":3},
 		"color": [255,215,0]

@@ -18,14 +18,14 @@
 			},
 			{
 				"name": "Aristocracy",
-				"uniques": ["+[15]% Production when constructing [Wonders]", "[+1 Culture] per [10] population in all cities"],
+				"uniques": ["+[15]% Production when constructing [Wonders]", "[+1 Happiness] per [10] population in all cities"],
 				"requires": ["United Front"],
 				"row": 2,
 				"column": 2
 			},
 			{
 				"name": "Democracy",
-				"uniques": ["-50% food consumption by specialists"],
+				"uniques": ["Specialists produce half normal unhappiness"],
 				"requires": ["Secularism"],
 				"row": 2,
 				"column": 4
@@ -50,7 +50,7 @@
 		"policies": [
 			{
 				"name": "Mandate Of Heaven",
-				"uniques": ["[+2 Culture] [in all cities]"],
+				"uniques": ["50% of excess happiness added to culture towards policies"],
 				"row": 1,
 				"column": 2
 			},
@@ -62,7 +62,7 @@
 			},
 			{
 				"name": "Reformation",
-				"uniques": ["+[33]% [Culture] [in all cities with a world wonder]", "Empire enters golden age"],
+				"uniques": ["+33% culture in all cities with a world wonder", "Empire enters golden age"],
 				"requires": ["Mandate Of Heaven"],
 				"row": 2,
 				"column": 2
@@ -137,13 +137,13 @@
 		"policies": [
 			{
 				"name": "Trade Unions",
-				"uniques": ["Maintenance on roads & railroads reduced by [33]%","[+1 Gold] from every [Harbor]","[+1 Gold] from every [Seaport]"],
+				"uniques": ["Maintenance on roads & railroads reduced by 33%","[+1 Gold] from every [Harbor]","[+1 Gold] from every [Seaport]"],
 				"row": 1,
 				"column": 2
 			},
 			{
 				"name": "Meritocracy",
-				"uniques": ["[+1 Culture, +1 Production] [in all cities connected to capital]"],
+				"uniques": ["+1 happiness for every city connected to capital", "Unhappiness from population decreased by [5]%"],
 				"row": 1,
 				"column": 4
 			},
@@ -186,7 +186,7 @@
 			},
 			{
 				"name": "Military Tradition",
-				"uniques":["[Military] units gain [50]% more Experience from combat"],
+				"uniques":["Military units gain 50% more Experience from combat"],
 				"row": 1,
 				"column": 3
 			},
@@ -198,7 +198,8 @@
 			},
 			{
 				"name": "Professional Army",
-				"uniques": ["Gold cost of upgrading military units reduced by 33%"],
+				"uniques": ["Gold cost of upgrading military units reduced by 33%","[+1 Happiness] from every [Castle]",
+					"[+1 Happiness] from every [Arsenal]","[+1 Happiness] from every [Military Base]"],
 				"requires": ["Discipline","Military Tradition"],
 				"row": 2,
 				"column": 3

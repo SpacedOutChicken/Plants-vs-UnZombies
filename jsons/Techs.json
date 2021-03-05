@@ -1,178 +1,313 @@
 [
-	{
-		"columnNumber": 0,
-		"era": "Pre-Apocalypse era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"techs": [
-			{
-				"name": "Civilization",
-				"row": 5,
-				"quote": "We had it once. It was nice.",
-				"uniques": ["Starting tech"]
-			}
-		]	
-	},
-    {
-        "columnNumber": 1,
-		"era": "Pre-Apocalypse era",
-		"techCost": 20, 
-		"buildingCost": 40,
-		"techs": [
-            {
-				"name": "Sailing",
-				"row": 2,
-				"prerequisites": ["Civilization"],
-				"quote": "We had boats.",
-                        "uniques": ["Starting tech","Enables embarkation for land units","Enables embarked units to enter ocean tiles"]
-			},
-			{
-				"name": "Farming",
-				"row": 4,
-				"prerequisites": ["Civilization"],
-				"quote": "We had farms.",
-                        "uniques": ["Starting tech"]
-			},
-			{
-				"name": "Driving",
-				"row": 6,
-				"prerequisites": ["Civilization"],
-				"quote": "We had roads.",
-                        "uniques": ["Starting tech","Roads connect tiles across rivers"]
-			},
-			{
-				"name": "Digging",
-				"row": 8,
-				"prerequisites": ["Civilization"],
-				"quote": "We had mines.",
-                        "uniques": ["Starting tech"]
-			}
-            ]
-    },
-    {
-		"columnNumber": 2,
-		"era": "Apocalypse era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"techs": [
-			{
-				"name": "Nuclear War",
-				"row": 5,
-                        "prerequisites": ["Sailing","Farming","Driving","Digging"],
-				"quote": "Then we sorta lost it all.",
-				"uniques": ["Starting tech"]
-			}
-		]	
-	},
-    {
-        "columnNumber": 3,
-		"era": "Apocalypse era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"techs": [
-			{
-				"name": "Up from the Ashes",
-				"row": 5,
-                        "prerequisites": ["Nuclear War"],
-				"quote": "So now we're rebuilding.",
-				"uniques": ["Starting tech"]
-			}
-		]
-    },
-    {
-		"columnNumber": 4,
-		"era": "Starting Over era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 185,
-		"techs": [
-			{
-				"name": "Green Tech",
-				"row": 1,
-				"prerequisites": ["Up from the Ashes"],
-				"quote": "Green the earth to save the earth!",
-                        "uniques": ["Incompatible with [Death Tech]",
-							"Incompatible with [Normal Tech]",
-							"+25% bonus vs Barbarians",
-							"Enables conversion of city production to science",
-							"Enables Research agreements",
-							"Enables Open Borders agreements"]
-			},
-			{
-				"name": "Basics",
-				"row": 5,
-				"prerequisites": ["Up from the Ashes"],
-				"quote": "Shall we try civilization again?",
+      {
+            "columnNumber": 0,
+            "era": "Pre-Apocalypse era",
+            "techCost": 1600,
+            "buildingCost": 360,
+            "wonderCost": 920,
+            "techs": [
+                  {
+                        "name": "Civilization",
+                        "row": 6,
+                        "quote": "'I think we agree, the past is over.' - George W. Bush",
                         "uniques": ["Starting tech",
-							"Enables conversion of city production to gold"]
+                              "Enables conversion of city production to gold",
+                              "100 Gold for discovering a Natural Wonder (bonus enhanced to 500 Gold if first to discover it)"]
+                  }
+            ]     
+      },
+      {
+            "columnNumber": 1,
+            "era": "Pre-Apocalypse era",
+            "techCost": 1600,
+            "buildingCost": 360,
+            "wonderCost": 920,
+            "techs": [
+                  {
+                        "name": "Construction",
+                        "row": 3,
+                        "prerequisites": ["Civilization"],
+                        "quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe",
+                        "uniques": ["Starting tech"]
+                  },
+                  {
+                        "name": "Navigation",
+                        "row": 5,
+                        "prerequisites": ["Civilization"],
+                        "quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes",
+                        "uniques": ["Starting tech",
+                              "Enables embarkation for land units",
+                              "Enables embarked units to enter ocean tiles",
+                              "Increases embarked movement +1"]
+                  },
+                  {
+                        "name": "Industrialization",
+                        "row": 7,
+                        "prerequisites": ["Civilization"],
+                        "quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch",
+                        "uniques": ["Starting tech",
+                              "Roads connect tiles across rivers",
+                              "Improves movement speed on roads"]
+                  },
+                  {
+                        "name": "Mining",
+                        "row": 9,
+                        "prerequisites": ["Civilization"],
+                        "quote": "'Curses on thee, cruel iron, curses on the steel thou givest, curses on thee, tongue of evil, cursed be thy life forever!' - The Kalevala",
+                        "uniques": ["Starting tech",
+                              "Tile improvement speed +25%"]
+                  }
+            ]
+      },
+      {
+            "columnNumber": 2,
+            "era": "Pre-Apocalypse era",
+            "techCost": 2350,
+            "buildingCost": 500,
+            "wonderCost": 1060,
+            "techs": [
+                  {
+                        "name": "Starting Over",
+                        "row": 6,
+                        "uniques": ["Starting tech"],
+                        "prerequisites": ["Construction","Navigation","Industrialization","Mining"],
+                        "quote": "'The best time to plant a tree was 20 years ago. The second-best time is now.' - Unknown"
+                  }
+            ]     
+      },
+      {
+            "columnNumber": 3,
+            "era": "Post-Apocalypse era",
+            "techCost": 3100,
+            "buildingCost": 500,
+            "wonderCost": 1250,
+            "techs": [
+                  {
+				"name": "Refrigeration",
+				"row": 2,
+				"prerequisites": ["Starting Over"],
+				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
+			},
+                  {
+				"name": "Radio",
+				"row": 3,
+				"prerequisites": ["Starting Over"],
+				"quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
 			},
 			{
-				"name": "Death Tech",
-				"row": 9,
-				"prerequisites": ["Up from the Ashes"],
-				"quote": "None shall be saved. Devour all!",
-                        "uniques": ["Incompatible with [Green Tech]",
-							"Incompatible with [Normal Tech]",
-							"City-State Influence degrades [-100]% slower",
-							"Gifts of Gold to City-States generate [-100]% more Influence",
-							"Resting point for Influence with City-States is increased by [-60]",
-							"+30% Strength when fighting City-State units and cities",
-							"+15% Combat Strength for all units when attacking Cities"]
+				"name": "Replaceable Parts",
+				"row": 4,
+				"prerequisites": ["Starting Over"],
+				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
 			},
 			{
-				"name": "Normal Tech",
-				"row": 11,
-				"quote": "Not very special",
-				"prerequisites": ["Up from the Ashes"],
-				"uniques": ["Incompatible with [Green Tech]",
-					"Incompatible with [Death Tech]",
-					"Not recommended for your civilization"]
+				"name": "Flight",
+				"row": 6,
+				"prerequisites": ["Starting Over"],
+				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
+			},
+			{
+				"name": "Propulsion",
+				"row": 8,
+				"prerequisites": ["Starting Over"],
+                        "uniques": ["Increases embarked movement +1"],
+				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			}
-		]
+            ]     
+      },
+      {
+		"columnNumber": 4,
+		"era": "Post-Apocalypse era",
+		"techCost": 4100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Plastics",
+				"row": 3,
+				"prerequisites": ["Radio","Replaceable Parts"],
+				"quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
+			},
+			{
+				"name": "Electronics",
+				"row": 5,
+				"prerequisites": ["Replaceable Parts", "Flight"],
+				"quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
+			},
+			{
+				"name": "Ballistics",
+				"row": 6,
+				"prerequisites": ["Flight"],
+				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
+			},
+			{
+				"name": "Combustion",
+				"row": 8,
+				"prerequisites": ["Propulsion"],
+				"quote": "'Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.' - Albert Einstein"
+			}
+		]	
 	},
 	{
 		"columnNumber": 5,
-		"era":"Starting Over era",
-		"techCost": 35, 
-		"buildingCost": 60,
-		"wonderCost": 185,
+		"era": "Rebuilding era",
+		"techCost": 5100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Temples",
+				"name": "Pharmaceuticals",
 				"row": 2,
-				"quote": "Believe"
+				"prerequisites": ["Plastics","Refrigeration"],
+				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
 			},
 			{
-				"name": "Workshops",
+				"name": "Atomic Theory",
 				"row": 4,
-				"quote": "Work"
+				"prerequisites": ["Plastics","Electronics"],
+				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
 			},
 			{
-				"name": "Gunpowder",
+				"name": "Radar",
 				"row": 6,
-				"quote": "Pew pew pew!"
+				"prerequisites": ["Ballistics","Electronics"],
+				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
 			},
 			{
-				"name": "Sunshine",
+				"name": "Combined Arms",
 				"row": 8,
-				"quote": "Light is money"
+				"prerequisites": ["Ballistics","Combustion"],
+				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
+			}
+		]	
+	},
+	{
+		"columnNumber": 6,
+		"era": "Rebuilding era",
+		"techCost": 6400,
+		"buildingCost": 750,
+		"wonderCost": 2000,
+		"techs": [
+			{
+				"name": "Ecology",
+				"row": 2,
+				"prerequisites": ["Atomic Theory","Pharmaceuticals"],
+				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
+			},
+			{
+				"name": "Nuclear Fission",
+				"row": 3,
+				"prerequisites": ["Atomic Theory","Radar"],
+				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
+			},
+			{
+				"name": "Rocketry",
+				"row": 6,
+				"prerequisites": ["Radar"],
+				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
+			},
+			{
+				"name": "Computers",
+				"row": 8,
+				"prerequisites": ["Combined Arms","Radar"],
+				"quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
 			}
 		]
 	},
 	{
-		"columnNumber": 17,
-		"era": "Future era",
-		"techCost": 20000,
+		"columnNumber": 7,
+		"era": "New Future era",
+		"techCost": 7700,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Future Tech",
+				"name": "Mobile Tactics",
+				"row": 3,
+				"prerequisites": ["Ecology","Nuclear Fission"],
+				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
+			},
+			{
+				"name": "Satellites",
 				"row": 5,
-				"prerequisites": ["Gunpowder"],
-				"uniques": ["Free Great Person", "Can be continually researched"],
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
+				"prerequisites": ["Nuclear Fission","Rocketry"],
+				"uniques": ["Reveals the entire map"], 
+				"quote": "'Now, somehow, in some new way, the sky seemed almost alien.' - Lyndon B. Johnson"
+			},
+			{
+				"name": "Robotics",
+				"row": 7,
+				"prerequisites": ["Rocketry","Computers"],
+				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
+			},
+			{
+				"name": "Lasers",
+				"row": 8,
+				"prerequisites": ["Computers"],
+				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
 			}
 		]	
-	}
+	},
+	
+	{
+		"columnNumber": 8,
+		"era": "New Future era",
+		"techCost": 8800,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Particle Physics",
+				"row": 4,
+				"prerequisites": ["Mobile Tactics","Satellites"],
+				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+			},
+			{
+				"name": "Nanotechnology",
+				"row": 7,
+				"prerequisites": ["Robotics","Lasers"],
+				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "New Future era",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+                        "name": "Curse of Undeath",
+                        "row": 3,
+                        "prerequisites": ["Nanotechnology","Particle Physics","Satellites"],
+                        "uniques": ["Incompatible with [Civility]",
+                              "City-State Influence degrades [-100]% slower",
+                              "Gifts of Gold to City-States generate [-100]% more Influence",
+                              "Resting point for Influence with City-States is increased by [-60]",
+                              "+30% Strength when fighting City-State units and cities",
+                              "+15% Combat Strength for all units when attacking Cities",
+                              "[All] units gain the [Undead] promotion"],
+                        "quote": "Death!"
+                  },
+                  {
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": ["Nanotechnology","Particle Physics","Satellites"],
+				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			},
+                  {
+                        "name": "Civility",
+                        "row": 8,
+                        "prerequisites": ["Nanotechnology","Particle Physics","Satellites"],
+                        "uniques": ["Incompatible with [Curse of Undeath]",
+                              "Enables conversion of city production to science",
+                              "Enables Research agreements",
+                              "Enables Open Borders agreements",
+                              "City-State Influence recovers at twice the normal rate"],
+                        "quote": "Why can't we all just get along?"
+                  }
+		]	
+	}  
 ]
