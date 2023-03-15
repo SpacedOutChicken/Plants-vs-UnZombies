@@ -1,0 +1,293 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land",
+        "uniques": ["Can move immediately once bought"]
+    },
+    {
+        "name": "Melee Plant",
+        "movementType": "Land",
+        "uniques": [
+            "Plant",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Ranged Plant",
+        "movementType": "Land",
+        "uniques": [
+            "Plant",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Heavy Plant",
+        "movementType": "Land",
+        "uniques": [
+            "Plant",
+            "Heavy",
+            "No defensive terrain bonus",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Siege Plant",
+        "movementType": "Land",
+        "uniques": [
+            "Plant",
+            "Siege",
+            "No defensive terrain bonus",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Melee Undead",
+        "movementType": "Land",
+        "uniques": [
+            "Undead",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Ranged Undead",
+        "movementType": "Land",
+        "uniques": [
+            "Undead",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Heavy Undead",
+        "movementType": "Land",
+        "uniques": [
+            "Undead",
+            "Heavy",
+            "No defensive terrain bonus",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Siege Undead",
+        "movementType": "Land",
+        "uniques": [
+            "Undead",
+            "Siege",
+            "No defensive terrain bonus",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Civilian Water",
+        "movementType": "Water",
+        "uniques": ["Can move immediately once bought"]
+    },
+    {
+        "name": "Melee Water Undead",
+        "movementType": "Water",
+        "uniques": [
+            "Undead",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Ranged Water Undead",
+        "movementType": "Water",
+        "uniques": [
+            "Undead",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Submarine Undead",
+        "movementType": "Water",
+        "uniques": [
+            "Submarine",
+            "Undead",
+			"Can pass through impassable tiles",
+			"Invisible to non-adjacent units",
+			"Can see invisible [Submarine] units",
+            "Can move after attacking",
+            "Can move immediately once bought"
+		]
+    },
+    {
+        "name": "Melee Water Plant",
+        "movementType": "Water",
+        "uniques": [
+            "Plant",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Ranged Water Plant",
+        "movementType": "Water",
+        "uniques": [
+            "Plant",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Submarine Plant",
+        "movementType": "Water",
+        "uniques": [
+            "Submarine",
+            "Plant",
+			"Can pass through impassable tiles",
+			"Invisible to non-adjacent units",
+			"Can see invisible [Submarine] units",
+            "Can move after attacking",
+            "Can move immediately once bought"
+		]
+    },
+    {
+        "name": "Fighter Undead",
+        "movementType": "Air",
+        "uniques": [
+            "Flying",
+            "Undead",
+            "[+4] Sight",
+            "Can see over obstacles",
+            "Can perform Air Sweep",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Bomber Undead",
+        "movementType": "Air",
+        "uniques": [
+            "Flying",
+            "Undead",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Floating Melee Undead",
+        "movementType": "Land",
+        "uniques": [
+            "Undead",
+            "Floating",
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
+			"Normal vision when embarked",
+            "Defense bonus when embarked",
+			"Eliminates combat penalty for attacking across a coast",
+			"Eliminates combat penalty for attacking over a river",
+			"May attack when embarked",
+			"[1] Movement point cost to disembark",
+			"[1] Movement point cost to embark",
+            "Can move after attacking",
+            "Can move immediately once bought"
+		]
+    },
+    {
+        "name": "Floating Ranged Undead",
+        "movementType": "Land",
+        "uniques": [
+            "Undead",
+            "Floating",
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
+			"Normal vision when embarked",
+            "Defense bonus when embarked",
+			"Eliminates combat penalty for attacking across a coast",
+			"Eliminates combat penalty for attacking over a river",
+			"May attack when embarked",
+			"[1] Movement point cost to disembark",
+			"[1] Movement point cost to embark",
+            "Can move after attacking",
+            "Can move immediately once bought"
+		]
+    },
+    {
+        "name": "Fighter Plant",
+        "movementType": "Air",
+        "uniques": [
+            "Flying",
+            "Plant",
+            "[+4] Sight",
+            "Can see over obstacles",
+            "Can perform Air Sweep",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Bomber Plant",
+        "movementType": "Air",
+        "uniques": [
+            "Flying",
+            "Plant",
+            "Can move after attacking",
+            "Can move immediately once bought"
+        ]
+    },
+    {
+        "name": "Floating Melee Plant",
+        "movementType": "Land",
+        "uniques": [
+            "Floating",
+            "Plant",
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
+			"Normal vision when embarked",
+            "Defense bonus when embarked",
+			"Eliminates combat penalty for attacking across a coast",
+			"Eliminates combat penalty for attacking over a river",
+			"May attack when embarked",
+			"[1] Movement point cost to disembark",
+			"[1] Movement point cost to embark",
+            "Can move after attacking",
+            "Can move immediately once bought"
+		]
+    },
+    {
+        "name": "Floating Ranged Plant",
+        "movementType": "Land",
+        "uniques": [
+            "Floating",
+            "Plant",
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"No defensive terrain bonus",
+			"Ignores Zone of Control",
+			"Normal vision when embarked",
+            "Defense bonus when embarked",
+			"Eliminates combat penalty for attacking across a coast",
+			"Eliminates combat penalty for attacking over a river",
+			"May attack when embarked",
+			"[1] Movement point cost to disembark",
+			"[1] Movement point cost to embark",
+            "Can move after attacking",
+            "Can move immediately once bought"
+		]
+    },
+    {
+        "name": "Bomb",
+        "movementType": "Air",
+        "uniques": [
+            "Self-destructs when attacking",
+            "Cannot be intercepted",
+            "Can move immediately once bought"
+        ]
+    }
+]

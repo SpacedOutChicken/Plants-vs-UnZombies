@@ -1,376 +1,432 @@
 
 game.png
-size: 2048, 512
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Garden
+BuildingIcons/City Center
   rotate: false
-  xy: 1187, 404
+  xy: 220, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Home Base
   rotate: false
-  xy: 1391, 404
+  xy: 436, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Military Base
+CityStateIcons/Amusing
   rotate: false
-  xy: 1595, 404
+  xy: 4, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Shelter
+CityStateIcons/Nutritious
   rotate: false
-  xy: 1799, 404
+  xy: 652, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Greenleaf
+CityStateIcons/Productive
   rotate: false
-  xy: 1289, 404
+  xy: 760, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Myconoids
+CityStateIcons/Refined
   rotate: false
-  xy: 308, 2
+  xy: 868, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Wraiths
+CityStateIcons/Stimulating
   rotate: false
-  xy: 983, 302
+  xy: 1084, 152
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EmojiIcons/Gold
+  rotate: false
+  xy: 1192, 144
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+NationIcons/Myconoids
+  rotate: false
+  xy: 544, 152
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Plantae
+  rotate: false
+  xy: 760, 152
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Specters
+  rotate: false
+  xy: 976, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Zombies
   rotate: false
-  xy: 1187, 302
+  xy: 1084, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Communism
+PolicyBranchIcons/Death
   rotate: false
-  xy: 608, 220
-  size: 50, 46
-  orig: 50, 46
-  offset: 0, 0
-  index: -1
-PolicyIcons/Educated Elite
-  rotate: false
-  xy: 1289, 352
+  xy: 1192, 202
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Nationalism
+PolicyBranchIcons/Life
   rotate: false
-  xy: 456, 114
+  xy: 1308, 202
   size: 50, 50
   orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Planned Economy
-  rotate: false
-  xy: 1341, 352
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Religious Tolerance
-  rotate: false
-  xy: 1549, 352
-  size: 48, 50
-  orig: 48, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Socialism
-  rotate: false
-  xy: 1393, 352
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/United Front
-  rotate: false
-  xy: 1289, 311
-  size: 50, 39
-  orig: 50, 39
-  offset: 0, 0
-  index: -1
-ResourceIcons/Aetherium
-  rotate: false
-  xy: 2, 2
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Algae
-  rotate: false
-  xy: 881, 404
-  size: 100, 100
-  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Coral
   rotate: false
-  xy: 2, 104
-  size: 400, 400
-  orig: 400, 400
-  offset: 0, 0
-  index: -1
-ResourceIcons/Fungus
-  rotate: false
-  xy: 1085, 404
+  xy: 220, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Insects
+ResourceIcons/Fossil Fuel
   rotate: false
-  xy: 1493, 404
+  xy: 328, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Luboric
+TileIcons/Buy
   rotate: false
-  xy: 881, 321
-  size: 100, 81
-  orig: 100, 81
+  xy: 112, 44
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Tubers
+OtherIcons/ConvertGold
   rotate: false
-  xy: 1085, 302
+  xy: 112, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Gold
   rotate: false
-  xy: 679, 304
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TechIcons/Civility
-  rotate: false
-  xy: 104, 2
+  xy: 112, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Civilization
+TileSets/FantasyHex/Tiles/City center-Renewal era
   rotate: false
-  xy: 506, 166
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Curse of Undeath
-  rotate: false
-  xy: 983, 404
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Propulsion
-  rotate: false
-  xy: 1697, 404
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TechIcons/Starting Over
-  rotate: false
-  xy: 1901, 404
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/CrosshatchHexagon
-  rotate: false
-  xy: 404, 268
-  size: 273, 236
-  orig: 273, 236
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Aetherium
-  rotate: false
-  xy: 2003, 476
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Algae
-  rotate: false
-  xy: 679, 274
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/City
-  rotate: false
-  xy: 1341, 320
-  size: 32, 30
-  orig: 32, 30
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/City-New Future era
-  rotate: false
-  xy: 1599, 367
-  size: 32, 35
-  orig: 32, 35
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/City-Post-Apocalypse era
-  rotate: false
-  xy: 2003, 440
+  xy: 1366, 102
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City-Pre-Apocalypse era
+TileSets/FantasyHex/Tiles/City center-Sapling era
   rotate: false
-  xy: 2003, 440
-  size: 32, 34
-  orig: 32, 34
+  xy: 44, 4
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City-Rebuilding era
+TileSets/FantasyHex/Tiles/City center-Seed era
   rotate: false
-  xy: 1633, 367
-  size: 32, 35
-  orig: 32, 35
+  xy: 84, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Snag era
+  rotate: false
+  xy: 1424, 161
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Sprout era
+  rotate: false
+  xy: 124, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Tree era
+  rotate: false
+  xy: 164, 4
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coral
   rotate: false
-  xy: 1375, 320
+  xy: 1482, 222
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Fungus
+TileSets/FantasyHex/Tiles/Fossil Fuel
   rotate: false
-  xy: 713, 274
+  xy: 1522, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Insects
+TileSets/FantasyHex/Tiles/Fuel pump
   rotate: false
-  xy: 1667, 374
+  xy: 1272, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Luboric
+TileSets/FantasyHex/Tiles/Fuel pump-water
   rotate: false
-  xy: 747, 274
+  xy: 244, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Tubers
+TileSets/FantasyHex/Tiles/Graveyard
   rotate: false
-  xy: 781, 274
+  xy: 1562, 219
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lawn
+  rotate: false
+  xy: 1602, 219
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Sunflowers
+  rotate: false
+  xy: 1682, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Airship
+TileSets/FantasyHex/Tiles/Woodland park
   rotate: false
-  xy: 560, 124
-  size: 32, 40
-  orig: 32, 40
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Founder
-  rotate: false
-  xy: 2003, 409
-  size: 32, 29
-  orig: 32, 29
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Landship
-  rotate: false
-  xy: 1409, 322
+  xy: 404, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout
+TileSets/FantasyHex/Units/Boss Zombie
   rotate: false
-  xy: 1701, 374
+  xy: 4, 8
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spearman
+TileSets/FantasyHex/Units/Button
   rotate: false
-  xy: 1443, 322
+  xy: 1192, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-UnitIcons/Airship
+TileSets/FantasyHex/Units/EmbarkedUnit-Friendly Ghost
   rotate: false
-  xy: 404, 166
+  xy: 1232, 50
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Friendly Ghost
+  rotate: false
+  xy: 1232, 50
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Necromancer
+  rotate: false
+  xy: 204, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Necromancer
+  rotate: false
+  xy: 204, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great General
+  rotate: false
+  xy: 1312, 50
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Grunt
+  rotate: false
+  xy: 284, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Pepper Spray
+  rotate: false
+  xy: 324, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sapling
+  rotate: false
+  xy: 1642, 224
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Skeleton
+  rotate: false
+  xy: 364, 8
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Boss Zombie
+  rotate: false
+  xy: 4, 44
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Founder
+UnitIcons/Button
   rotate: false
-  xy: 206, 2
+  xy: 112, 152
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Eat the Living
+UnitIcons/Friendly Ghost
   rotate: false
-  xy: 404, 114
+  xy: 328, 44
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Grunt
+  rotate: false
+  xy: 436, 152
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Necromancer
+  rotate: false
+  xy: 544, 44
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Pepper Spray
+  rotate: false
+  xy: 652, 44
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sapling
+  rotate: false
+  xy: 868, 44
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skeleton
+  rotate: false
+  xy: 976, 152
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Head Shot
+  rotate: false
+  xy: 1250, 202
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Mobility
+UnitPromotionIcons/Herbicide
   rotate: false
-  xy: 608, 168
+  xy: 1192, 86
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Repair
+UnitPromotionIcons/Leaf on the Wind
   rotate: false
-  xy: 508, 114
+  xy: 1250, 144
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Spectral
+UnitPromotionIcons/Off-Road
   rotate: false
-  xy: 1445, 352
+  xy: 1250, 86
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Undead
+UnitPromotionIcons/On the Move
   rotate: false
-  xy: 1497, 352
+  xy: 1308, 144
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Over the Fence
+  rotate: false
+  xy: 1366, 202
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Piggyback
+  rotate: false
+  xy: 1308, 86
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sixth Sense
+  rotate: false
+  xy: 1366, 144
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/The Quick and the Dead
+  rotate: false
+  xy: 1424, 202
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

@@ -1,133 +1,174 @@
 [	
 	{
-		"name": "Farm",
-		"techRequired": "Civilization",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
-		"food": 2,
-		"turnsToBuild": 7,
-		"uniques": ["Can also be built on tiles adjacent to fresh water"],
-		"shortcutKey": "F"
-	},
-	{
-		"name": "Lumber mill",
-		"techRequired": "Civilization",
-		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 2,
-		"turnsToBuild": 7,
+		"name": "Lawn",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra"],
+		"turnsToBuild": 4,
+		"food": 1,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Can also be built on tiles adjacent to fresh water",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "L"
 	},
 	{
-		"name": "Mine",
-		"techRequired": "Mining",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"production": 2,
-		"turnsToBuild": 7,
-		"shortcutKey": "M"
-	},
-	{
-		"name": "Trading post",
-		"techRequired": "Industrialization",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"name": "Sunflowers",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert"],
+		"turnsToBuild": 4,
 		"gold": 2,
-		"turnsToBuild": 7,
-		"shortcutKey": "T"
-	},
-	
-	// Resource-specific
-	{
-		"name": "Camp",
-		"techRequired": "Civilization",
-		"resourceTerrainAllow": ["Forest"],
-		"gold": 1,
-		"turnsToBuild": 7,
-		"shortcutKey": "C"
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "S"
 	},
 	{
-		"name": "Oil well",
-		"techRequired": "Mining",
-		"turnsToBuild": 9
+		"name": "Woodland park",
+		"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+		"turnsToBuild": 4,
+		"production": 1,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "W"
 	},
 	{
-		"name": "Pasture",
-		"techRequired": "Civilization",
-		"turnsToBuild": 8,
-		"food": 1
+		"name": "Polder",
+		"terrainsCanBeBuiltOn": ["Marsh"],
+		"turnsToBuild": 4,
+		"food": 3,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
 	},
 	{
 		"name": "Plantation",
-		"techRequired": "Civilization",
-		"turnsToBuild": 6,
-		"gold": 1,
+		"turnsToBuild": 4,
 		"food": 1,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Fishing Boats",
-		"techRequired": "Navigation",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
-		"gold": 1
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "F"
 	},
 
-	// Military improvement
 	{
-		"name": "Fort",
-		"techRequired": "Construction",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
-		"turnsToBuild": 6,
-		"uniques": ["Gives a defensive bonus of [50]%",
-			"Can be built outside your borders"],
-		"shortcutKey": "O"
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 4,
+		"uniques": [
+			"Only available <after adopting [Death]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 4,
+		"uniques": [
+			"Only available <after adopting [Death]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "Q"
 	},
 
-	// Industrialization
+	{
+		"name": "Graveyard",
+		"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert", "Tundra", "Snow"],
+		"turnsToBuild": 4,
+		"food": 1,
+		"uniques": [
+			"Only available <after adopting [Death]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "G"
+	},
+	{
+		"name": "Fuel pump",
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Only available <after adopting [Death]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+
+	// Transportation
 	{
 		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"techRequired": "Industrialization",
-		"uniques": ["Can be built outside your borders",
-			"Costs [1] gold per turn when in your territory"],
+		"techRequired": "The Wheel",
+		"uniques": [
+			"Can be built outside your borders"
+		],
 		"shortcutKey": "R"
 	},
 	{
 		"name": "Railroad",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"techRequired": "Propulsion",
-		"uniques": ["Can be built outside your borders",
-			"Costs [2] gold per turn when in your territory"]
+		"techRequired": "The Wheel",
+		"uniques": [
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "R"
 	},
 	
 	// Removals
+	// Any improvement that starts with 'Remove ' is automatically changed into
+	// the improvement that removes the terrainfeature after it.
 	{
 		"name": "Remove Forest",
-		"techRequired": "Construction",
 		"turnsToBuild": 4,
-		"terrainsCanBeBuiltOn": ["Forest"],
-		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X"
+		"uniques": [
+			"Can be built outside your borders",
+			"Only available <after adopting [Death]>"
+		],
+		"shortcutKey": "X",
+        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
 	},
 	{
 		"name": "Remove Jungle",
-		"techRequired": "Construction",
-		"turnsToBuild": 7,
-		"terrainsCanBeBuiltOn": ["Jungle"],
-		"uniques": ["Can be built outside your borders"],
-		"shortcutKey": "X"
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can be built outside your borders",
+			"Only available <after adopting [Death]>"
+		],
+		"shortcutKey": "X",
+		"civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
 	},
 	{
 		"name": "Remove Fallout",
-		"techRequired": "Mining",
-		"turnsToBuild": 8,
-		"terrainsCanBeBuiltOn": ["Fallout"],
+		"turnsToBuild": 4,
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Marsh",
-		"techRequired": "Mining",
-		"turnsToBuild": 6,
-		"terrainsCanBeBuiltOn": ["Marsh"],
-		"uniques": ["Can be built outside your borders"],
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can be built outside your borders",
+			"Only available <after adopting [Death]>"
+		],
 		"shortcutKey": "X"
 	},
 
@@ -144,39 +185,57 @@
 	},
 	{
 		"name": "Cancel improvement order",
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
 	},
 	
 	// Great Person improvements
-	{
-		"name": "Academy",
-		"science": 8,
-		"uniques": ["Great Improvement"]
-	},
-	{
-		"name": "Landmark",
-		"culture": 6,
-		"uniques": ["Great improvement"]
-	},
-	{
-		"name": "Manufactory",
-		"production": 4,
-		"improvingTech": "Chemistry",
-		"uniques": ["Great Improvement"]
-	},
-	{
-		"name": "Customs house",
-		"gold": 4,
-		"improvingTech": "Economics",
-		"uniques": ["Great Improvement"]
-	},
+	
 	{
 		"name": "Citadel",
-		"uniques": ["Gives a defensive bonus of [100]%","Deal 30 damage to adjacent enemy units",
-			"Great improvement"]
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+        	"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built"
+		]
 	},
 	
-	{ "name": "Ancient ruins" },
-	{ "name": "City ruins" },
-	{ "name": "Barbarian encampment" }
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Unbuildable",
+			"Will be replaced by automated workers"
+		],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Irremovable",
+			"Unbuildable",
+			"Ensures a minimum tile yield of [+2 Food, +1 Production, +1 Culture]"
+		],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Unbuildable",
+			"Provides a random bonus when entered"
+		],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
 ]

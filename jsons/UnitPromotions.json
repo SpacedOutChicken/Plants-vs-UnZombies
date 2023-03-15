@@ -1,480 +1,243 @@
 [
-
 	{
 		"name": "Heal Instantly",
-		"effect": "Heal this Unit by 50 HP; Doing so will consume this opportunity to choose a Promotion",
-		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Armor","WaterMelee","WaterRanged","WaterSubmarine"]
+		"uniques": [
+			"Heal this unit by [50] HP",
+			"Doing so will consume this opportunity to choose a Promotion"
+		],
+		"unitTypes": [
+			"Melee Plant",
+			"Ranged Plant",
+			"Heavy Plant",
+			"Siege Plant",
+			"Melee Undead",
+			"Ranged Undead",
+			"Heavy Undead",
+			"Siege Undead",
+			"Melee Water Undead",
+			"Ranged Water Undead",
+			"Submarine Undead",
+			"Melee Water Plant",
+			"Ranged Water Plant",
+			"Submarine Plant",
+			"Fighter Undead",
+			"Bomber Undead",
+			"Floating Melee Undead",
+			"Floating Ranged Undead",
+			"Fighter Plant",
+			"Bomber Plant",
+			"Floating Melee Plant",
+			"Floating Ranged Plant"
+		]
 	},
-	
-	// Ranged+Siege
+
+	// Melee promotions
+
 	{
-		"name": "Accuracy I",
-		"effect": "Bonus vs units in open terrain 15%",
-		"unitTypes": ["Siege","Ranged"]
+		"name": "Shock",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": [
+			"Melee Plant",
+			"Melee Undead",
+			"Heavy Plant",
+			"Heavy Undead"
+		]
 	},
 	{
-		"name": "Accuracy II",
-		"prerequisites": ["Accuracy I"],
-		"effect": "Bonus vs units in open terrain 15%",
-		"unitTypes": ["Siege","Ranged"]
+		"name": "Drill",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": [
+			"Melee Plant",
+			"Melee Undead",
+			"Heavy Plant",
+			"Heavy Undead"
+		]
+	},
+
+	// Ranged promotions
+
+	{
+		"name": "Accuracy",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": [
+			"Ranged Plant",
+			"Ranged Undead",
+			"Siege Plant",
+			"Siege Undead"
+		]
+    },
+	{
+		"name": "Barrage",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": [
+			"Ranged Plant",
+			"Ranged Undead",
+			"Siege Plant",
+			"Siege Undead"
+		]
+    },
+
+	{
+		"name": "Head Shot",
+		"uniques": ["[+15]% Strength <vs [Undead] units>"],
+		"unitTypes": [
+			"Bomber Plant",
+			"Fighter Plant",
+			"Floating Melee Plant",
+			"Floating Ranged Plant",
+			"Heavy Plant",
+			"Melee Plant",
+			"Melee Water Plant",
+			"Ranged Plant",
+			"Ranged Water Plant",
+			"Siege Plant",
+			"Submarine Plant"
+		]
 	},
 	{
-		"name": "Accuracy III",
-		"prerequisites": ["Accuracy II"],
-		"effect": "Bonus vs units in open terrain 15%",
-		"unitTypes": ["Siege","Ranged"]
+		"name": "Herbicide",
+		"uniques": ["[+15]% Strength <vs [Plant] units>"],
+		"unitTypes": [
+			"Bomber Undead",
+			"Fighter Undead",
+			"Floating Melee Undead",
+			"Floating Ranged Undead",
+			"Heavy Undead",
+			"Melee Undead",
+			"Melee Water Undead",
+			"Ranged Undead",
+			"Ranged Water Undead",
+			"Siege Undead",
+			"Submarine Undead"
+		]
 	},
 
 	{
-		"name": "Barrage I",
-		"effect": "Bonus vs units in rough terrain 15%",
-		"unitTypes": ["Siege","Ranged"]
+		"name": "Piggyback I",
+		"uniques": ["Can carry [2] [Air] units"],
+		"unitTypes": [
+			"Ranged Water Plant",
+			"Ranged Water Undead",
+			"Siege Plant",
+			"Siege Undead",
+			"Submarine Plant",
+			"Submarine Undead"
+		]
 	},
 	{
-		"name": "Barrage II",
-		"prerequisites": ["Barrage I"],
-		"effect": "Bonus vs units in rough terrain 15%",
-		"unitTypes": ["Siege","Ranged"]
-	},
-	{
-		"name": "Barrage III",
-		"prerequisites": ["Barrage II"],
-		"effect": "Bonus vs units in rough terrain 15%",
-		"unitTypes": ["Siege","Ranged"]
-	},
-
-	{
-		"name": "Volley",
-		"prerequisites": ["Accuracy I","Barrage I"],
-		"effect": "Bonus vs City 50%",
-		"unitTypes": ["Ranged","Siege"]
-	},
-	{
-		"name": "Extended Range",
-		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
-		"effect": "+1 Range",
-		"unitTypes": ["Ranged","Siege","WaterRanged","WaterSubmarine"]
-	},
-	{
-		"name": "Indirect Fire",
-		"prerequisites": ["Accuracy III","Barrage III"],
-		"effect": "Ranged attacks may be performed over obstacles",
-		"unitTypes": ["Ranged","Siege"]
-	},
-	
-	// Melee, Mounted+Armor
-	{
-		"name": "Shock I",
-		"effect": "Bonus vs units in open terrain 15%",
-		"unitTypes": ["Melee","Armor"]
-	},
-	{
-		"name": "Shock II",
-		"prerequisites": ["Shock I"],
-		"effect": "Bonus vs units in open terrain 15%",
-		"unitTypes": ["Melee","Armor"]
-	},
-	{
-		"name": "Shock III",
-		"prerequisites": ["Shock II"],
-		"effect": "Bonus vs units in open terrain 15%",
-		"unitTypes": ["Melee","Armor"]
+		"name": "Piggyback II",
+		"uniques": ["Can carry [2] extra [Air] units"],
+		"prerequisites": ["Piggyback I"],
+		"unitTypes": [
+			"Ranged Water Plant",
+			"Ranged Water Undead",
+			"Siege Plant",
+			"Siege Undead",
+			"Submarine Plant",
+			"Submarine Undead"
+		]
 	},
 
 	{
-		"name": "Drill I",
-		"effect": "Bonus vs units in rough terrain 15%",
-		"unitTypes": ["Melee","Armor"]
-	},
-	{
-		"name": "Drill II",
-		"prerequisites": ["Drill I"],
-		"effect": "Bonus vs units in rough terrain 15%",
-		"unitTypes": ["Melee","Armor"]
-	},
-	{
-		"name": "Drill III",
-		"prerequisites": ["Drill II"],
-		"effect": "Bonus vs units in rough terrain 15%",
-		"unitTypes": ["Melee","Armor"]
-	},
-	{
-		"name": "Charge",
-		"prerequisites": ["Shock II","Drill II"],
-		"effect": "Bonus vs wounded units 33%",
-		"unitTypes": ["Armor"]
-	},
-	{
-		"name": "Siege",
-		"prerequisites": ["Shock II","Drill II"],
-		"effect": "Bonus vs City 50%",
-		"unitTypes": ["Melee"]
-	},
-	{
-		"name": "Formation I",
-		"prerequisites": ["Shock II","Drill II"],
-		"effect": "Bonus vs Mounted 33%",
-		"unitTypes": ["Melee"]
-	},
-	{
-		"name": "Formation II",
-		"prerequisites": ["Formation I"],
-		"effect": "Bonus vs Mounted 33%",
-		"unitTypes": ["Melee"]
-	},
-	{
-		"name": "Blitz",
-		"prerequisites": ["Shock III","Drill III"],
-		"effect": "1 additional attack per turn",
-		"unitTypes": ["Melee","Armor"]
-	},
-	{
-		"name": "Woodsman",
-		"prerequisites": ["Shock III","Drill III"],
-		"effect": "Double movement rate through Forest and Jungle",
-		"unitTypes": ["Melee"]
-	},
-	{
-		"name": "Medic",
-		"prerequisites": ["Shock I", "Drill I", "Scouting II"],
-		"effect": "This unit and all others in adjacent tiles heal 5 additional HP per turn",
-		"unitTypes": ["Melee","Scout"]
-	},
-	{
-		"name": "Medic II",
-		"prerequisites": ["Medic"],
-		"effect": "This unit and all others in adjacent tiles heal 5 additional HP. This unit heals 5 additional HP outside of friendly territory.",
-		"unitTypes": ["Melee","Scout"]
-	},
-	// Scout
-	{
-		"name": "Scouting I",
-		"effect": "+1 Visibility Range",
-		"unitTypes": ["Scout"]
-	},
-	{
-		"name": "Scouting II",
-		"prerequisites": ["Scouting I"],
-		"effect": "+1 Movement",
-		"unitTypes": ["Scout"]
-	},
-	{
-		"name": "Scouting III",
-		"prerequisites": ["Scouting II"],
-		"effect": "+1 Visibility Range",
-		"unitTypes": ["Scout"]
-	},
-	
-	
-	// Water melee
-	{
-		"name": "Boarding Party I",
-		"effect": "Bonus vs water units 15%",
-		"unitTypes": ["WaterMelee"]
-	},
-	{
-		"name": "Boarding Party II",
-		"prerequisites": ["Boarding Party I"],
-		"effect": "Bonus vs water units 15%",
-		"unitTypes": ["WaterMelee"]
-	},
-	{
-		"name": "Boarding Party III",
-		"prerequisites": ["Boarding Party II"],
-		"effect": "Bonus vs water units 15%",
-		"unitTypes": ["WaterMelee"]
-	},
-	
-	{
-		"name": "Coastal Raider I",
-		"effect": "Bonus vs City 15%",
-		"unitTypes": ["WaterMelee"]
-	},
-	{
-		"name": "Coastal Raider II",
-		"prerequisites": ["Coastal Raider I"],
-		"effect": "Bonus vs City 15%",
-		"unitTypes": ["WaterMelee"]
-	},
-	{
-		"name": "Coastal Raider III",
-		"prerequisites": ["Coastal Raider II"],
-		"effect": "Bonus vs City 15%",
-		"unitTypes": ["WaterMelee"]
-	},
-	
-	// Submarine
-	{
-		"name": "Wolfpack I",
-		"effect": "+[25]% Strength when attacking",
-		"unitTypes": ["WaterSubmarine"]
-	},
-	{
-		"name": "Wolfpack II",
-		"prerequisites": ["Wolfpack I"],
-		"effect": "+[25]% Strength when attacking",
-		"unitTypes": ["WaterSubmarine"]
-	},
-	{
-		"name": "Wolfpack III",
-		"prerequisites": ["Wolfpack II"],
-		"effect": "+[25]% Strength when attacking",
-		"unitTypes": ["WaterSubmarine"]
-	},
-	
-	// Aircraft Carrier
-	{
-		"name": "Armor Plating I",
-		"effect": "+[25]% Strength when defending",
-		"unitTypes": ["WaterAircraftCarrier"]
-	},
-	{
-		"name": "Armor Plating II",
-		"prerequisites": ["Armor Plating I"],
-		"effect": "+[25]% Strength when defending",
-		"unitTypes": ["WaterAircraftCarrier"]
-	},
-	{
-		"name": "Armor Plating III",
-		"prerequisites": ["Armor Plating II"],
-		"effect": "+[25]% Strength when defending",
-		"unitTypes": ["WaterAircraftCarrier"]
-	},
-	{
-		"name": "Flight Deck I",
-		"effect": "Can carry 1 extra air unit",
-		"unitTypes": ["WaterAircraftCarrier"]
-	},
-	{
-		"name": "Flight Deck II",
-		"prerequisites": ["Flight Deck I"],
-		"effect": "Can carry 1 extra air unit",
-		"unitTypes": ["WaterAircraftCarrier"]
-	},
-	{
-		"name": "Flight Deck III",
-		"prerequisites": ["Flight Deck II"],
-		"effect": "Can carry 1 extra air unit",
-		"unitTypes": ["WaterAircraftCarrier"]
+		"name": "Over the Fence",
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": [
+			"Floating Ranged Plant",
+			"Floating Ranged Undead",
+			"Ranged Plant",
+			"Ranged Undead",
+			"Ranged Water Plant",
+			"Ranged Water Undead",
+			"Siege Plant",
+			"Siege Undead"
+		]
 	},
 
-	// Bomber
 	{
-		"name": "Siege I",
-		"effect": "Bonus vs City 33%",
-		"unitTypes": ["Bomber"]
+		"name": "Off-Road",
+		"uniques": [
+			"Ignores terrain cost",
+			"No defensive terrain penalty"
+		],
+		"unitTypes": [
+			"Melee Plant",
+			"Melee Undead",
+			"Ranged Plant",
+			"Ranged Undead"
+		]
+	},
+
+
+
+	{
+		"name": "The Quick and the Dead",
+		"uniques": [
+			"[+1] Movement",
+			"May withdraw before melee ([75]%)"
+		],
+		"unitTypes": [
+			"Floating Melee Undead",
+			"Floating Ranged Undead",
+			"Melee Undead",
+			"Ranged Undead"
+		]
 	},
 	{
-		"name": "Siege II",
-		"prerequisites": ["Siege I"],
-		"effect": "Bonus vs City 33%",
-		"unitTypes": ["Bomber"]
+		"name": "Leaf on the Wind",
+		"uniques": [
+			"[+1] Movement",
+			"May withdraw before melee ([75]%)"
+		],
+		"unitTypes": [
+			"Floating Melee Plant",
+			"Floating Ranged Plant",
+			"Melee Plant",
+			"Ranged Plant"
+		]
 	},
 	{
-		"name": "Siege III",
-		"prerequisites": ["Siege II"],
-		"effect": "Bonus vs City 34%",
-		"unitTypes": ["Bomber"]
+		"name": "On the Move",
+		"prerequisites": ["The Quick and the Dead","Leaf on the Wind"],
+		"uniques": [
+			"[+1] Movement",
+			"Ignores Zone of Control",
+			"Can move after attacking"
+		],
+		"unitTypes": [
+			"Floating Melee Plant",
+			"Floating Melee Undead",
+			"Floating Ranged Plant",
+			"Floating Ranged Undead",
+			"Melee Plant",
+			"Melee Undead",
+			"Ranged Plant",
+			"Ranged Undead"
+		]
 	},
+
+
+
 	{
-		"name": "Evasion",
-		"prerequisites": ["Siege II", "Bombardment II"],
-		"effect": "Reduces damage taken from interception by 50%",
-		"unitTypes": ["Bomber"]
+		"name": "Sixth Sense",
+		"uniques": [
+			"Can see over obstacles",
+			"Can see invisible [non-air] units"
+		],
+		"unitTypes": [
+			"Floating Melee Plant",
+			"Floating Melee Undead",
+			"Floating Ranged Plant",
+			"Floating Ranged Undead",
+			"Melee Plant",
+			"Melee Undead",
+			"Ranged Plant",
+			"Ranged Undead"
+		]
 	},
-	
-	// Fighter
+
+	// Uniques that should be kept on upgrades
 	{
-		"name": "Interception I",
-		"effect": "Bonus when intercepting [33]%",
-		"unitTypes": ["Fighter"]
-	},
-	{
-		"name": "Interception II",
-		"prerequisites": ["Interception I"],
-		"effect": "Bonus when intercepting [33]%",
-		"unitTypes": ["Fighter"]
-	},
-	{
-		"name": "Interception III",
-		"prerequisites": ["Interception II"],
-		"effect": "Bonus when intercepting [34]%",
-		"unitTypes": ["Fighter"]
-	},
-	/*
-	{
-		"name": "Dogfighting I",
-		"effect": "Bonus when performing air sweep [33]%", // todo
-		"unitTypes": ["Fighter"]
-	},
-	{
-		"name": "Dogfighting II",
-		"prerequisites": ["Dogfighting I"],
-		"effect": "Bonus when performing air sweep [33]%",
-		"unitTypes": ["Fighter"]
-	},
-	{
-		"name": "Dogfighting III",
-		"prerequisites": ["Dogfighting II"],
-		"effect": "Bonus when performing air sweep [34]%",
-		"unitTypes": ["Fighter"]
-	}
-	*/
-	
-	{
-		"name": "Sortie",
-		"prerequisites": ["Interception II", "Dogfighting II"],
-		"effect": "1 extra Interception may be made per turn",
-		"unitTypes": ["Fighter"]
-	},
-	
-	{
-		"name": "Operational Range",
-		"prerequisites": ["Interception I", /*"Dogfighting I",*/ "Siege I", "Bombardment I"],
-		"effect": "+2 Range",
-		"unitTypes": ["Fighter","Bomber"]
-	},
-	{
-		"name": "Air Repair",
-		"prerequisites": ["Interception II", /*"Dogfighting II",*/ "Siege II", "Bombardment II"],
-		"effect": "Unit will heal every turn, even if it performs an action",
-		"unitTypes": ["Fighter","Bomber"]
-	},
-	
-	// Mixed
-	{
-		"name": "Cover I",
-		"effect": "+25% Defence against ranged attacks",
-		"unitTypes": ["Melee","Ranged","Siege"]
-	},
-	{
-		"name": "Cover II",
-		"prerequisites": ["Cover I"],
-		"effect": "+25% Defence against ranged attacks",
-		"unitTypes": ["Melee","Ranged","Siege"]
-	},
-	
-	{
-		"name": "March",
-		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
-		"effect": "Unit will heal every turn, even if it performs an action",
-		"unitTypes": ["Melee","Ranged","Siege"]
-	},
-	{
-		"name": "Mobility",
-		"prerequisites": ["Shock II","Drill II","Targeting I",
-			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
-		"effect": "+1 Movement",
-		"unitTypes": ["WaterMelee","WaterRanged","Armor","WaterSubmarine"]
-	},
-	{
-		"name": "Mobility I",
-		"effect": "+1 Movement",
-		"unitTypes": ["Mounted"]
-	},
-	{
-		"name": "Mobility II",
-		"prerequisites": ["Mobility I"],
-		"effect": "+1 Movement",
-		"unitTypes": ["Mounted"]
-	},
-	{
-		"name": "Ambush I",
-		"effect": "Bonus vs Armor 25%",
-		"unitTypes": ["Melee","Fighter","Bomber","Mounted"]
-	},
-	{
-		"name": "Ambush II",
-		"prerequisites": ["Ambush I"],
-		"effect": "Bonus vs Armor 25%",
-		"unitTypes": ["Melee","Fighter","Bomber","Mounted"]
-	},
-	{
-		"name": "Repair",
-		"prerequisites": ["Mobility II","Ambush II"],
-		"effect": "Unit will heal every turn, even if it performs an action",
-		"unitTypes": ["Mounted"]
-	},
-	{
-		"name": "Sentry",
-		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
-		"effect": "+1 Visibility Range",
-		"unitTypes": ["Melee","WaterRanged","Armor","WaterMelee"]
-	},
-	{
-		"name": "Logistics",
-		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
-			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III","Mobility II","Ambush II"],
-		"effect": "1 additional attack per turn",
-		"unitTypes": ["Ranged","Siege","WaterMelee","WaterRanged","WaterSubmarine","Fighter","Bomber","Mounted"]
-	},
-	
-	
-	// Water ranged and air units
-	{
-		"name": "Bombardment I",
-		"effect": "Bonus vs land units 33%",
-		"unitTypes": ["WaterRanged","Fighter","Bomber"]
-	},
-	{
-		"name": "Bombardment II",
-		"prerequisites": ["Bombardment I"],
-		"effect": "Bonus vs land units 33%",
-		"unitTypes": ["WaterRanged","Fighter","Bomber"]
-	},
-	{
-		"name": "Bombardment III",
-		"prerequisites": ["Bombardment II"],
-		"effect": "Bonus vs land units 34%",
-		"unitTypes": ["WaterRanged","Fighter","Bomber"]
-	},
-	
-	// Targeting I has different requirements for air and waterranged units, this was the cleanest way to do so
-	{
-		"name": "Targeting I",
-		"effect": "Bonus vs water units 15%",
-		"unitTypes": ["WaterRanged"]
-	},
-	{
-		"name": "Targeting I (air)",
-		"prerequisites": ["Interception I","Dogfighting I", "Siege I","Bombardment I"],
-		"effect": "Bonus vs water units 15%",
-		"unitTypes": ["Fighter","Bomber"]
-	},
-	{
-		"name": "Targeting II",
-		"prerequisites": ["Targeting I","Targeting I (air)"],
-		"effect": "Bonus vs water units 15%",
-		"unitTypes": ["WaterRanged","Fighter","Bomber"]
-	},
-	{
-		"name": "Targeting III",
-		"prerequisites": ["Targeting II"],
-		"effect": "Bonus vs water units 15%",
-		"unitTypes": ["WaterRanged"]
-	},
-	
-	// Uniques
-	{
-		"name": "Rejuvenation",
-		"effect": "All healing effects doubled"
-	},
-	{
-		"name": "Undead",
-		"uniques": ["Undead", "Uncapturable"]
-	},
-	{
-		"name": "Spectral",
-		"uniques": ["No defensive terrain bonus",
-			"No defensive terrain penalty",
-			"May withdraw before melee ([50]%)",
-			"Can move after attacking",
-			"All tiles cost 1 movement",
-			"Can pass through impassable tiles",]
-	},
-	{
-		"name": "Eat the Living",
-		"uniques": ["Heals [25] damage if it kills a unit",
-			"Earn [25]% of [military] opponent's [Strength] as [Culture] for kills"]
+		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
+		"uniques": ["All healing effects doubled"]
 	}
 ]
