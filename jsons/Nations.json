@@ -8,7 +8,7 @@
 		"name": "Myconoids",
 		"leaderName": "Humongous Fungus",
 		"adjective": ["Myconoid"],
-		"preferredVictoryType": "Time",
+		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -37,7 +37,8 @@
 		"name": "Plantae",
 		"leaderName": "Leaf Erikson",
 		"adjective": ["Plant"],
-		"preferredVictoryType": "Time",
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -58,6 +59,72 @@
 		"cities": [
 			"Leafy 01","Leafy 02","Leafy 03","Leafy 04","Leafy 05","Leafy 06","Leafy 07","Leafy 08","Leafy 09","Leafy 10","Leafy 11",
 			"Leafy 12","Leafy 13","Leafy 14","Leafy 15","Leafy 16","Leafy 17","Leafy 18","Leafy 19","Leafy 20"
+		]
+	},
+	{
+		"name": "Seaweeds",
+		"leaderName": "Undine",
+		"adjective": ["Seaweed"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "If I am to be honest, I tire of those pointless charades.",
+		"attacked": "Ahahah! Too bad that I'll probably kill you!",
+		"defeated": "A common man alone could not have defeated me...",
+		"introduction": "Hah, are you afraid?",
+		"neutralHello": "Hail to you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "This is a fine deal! Even a drunk beggar would agree!",
+
+        "outerColor": [12,75,25],
+        "innerColor": [157,172,255],
+
+		"uniqueName": "Aquaculture",
+		"uniques": [
+			"Starts with [Life] adopted",
+			"Defense bonus when embarked <for [All] units>",
+			"[+2] Movement <in [Water] tiles>",
+			"Normal vision when embarked <for [All] units>"
+		],
+		"cities": [
+			"Water 01","Water 02","Water 03","Water 04","Water 05","Water 06","Water 07","Water 08","Water 09","Water 10",
+			"Water 11","Water 12","Water 13","Water 14","Water 15","Water 16","Water 17","Water 18","Water 19","Water 20"
+
+		]
+    },
+	{
+		"name": "Vampires",
+		"leaderName": "Varney",
+		"adjective": ["Vampire"],
+		"startBias": ["Avoid [Desert]"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing - to make this deal with me.",
+
+		"outerColor": [164, 0, 0],
+		"innerColor": [255, 255, 255],
+		"uniqueName": "The Blood Is the Life",
+		"uniques": [
+			"Starts with [Death] adopted",
+			"Earn [10]% of the damage done to [All] units as [Gold]"
+		],
+		"cities": [
+			"Sucker 01","Sucker 02","Sucker 03","Sucker 04","Sucker 05","Sucker 06","Sucker 07","Sucker 08","Sucker 09","Sucker 10",
+			"Sucker 11","Sucker 12","Sucker 13","Sucker 14","Sucker 15","Sucker 16","Sucker 17","Sucker 18","Sucker 19","Sucker 20"
 		]
 	},
 	{
@@ -87,7 +154,7 @@
 		"tradeRequest": "T-...tr-...trade?",
 
 		"outerColor": [179, 178, 184],
-		"innerColor": [37, 43, 33],
+		"innerColor": [27, 33, 23],
 		"uniqueName": "Eat the Living",
 		"uniques": [
 			"Starts with [Death] adopted",
@@ -98,7 +165,7 @@
 			"Zombie 11","Zombie 12","Zombie 13","Zombie 14","Zombie 15","Zombie 16","Zombie 17","Zombie 18","Zombie 19","Zombie 20"
 		]
 	},
-{
+	{
 		"name": "Specters",
 		"leaderName": "Stavro",
 		"adjective": ["Spectral"],
@@ -112,13 +179,14 @@
 		"neutralHello": "Hello, again.",
 		"hateHello": "Oh, it's you!",
 		"tradeRequest": "Would you be interested in a trade agreement with the Specters?",
-		"outerColor": [27,53,63],
+		"outerColor": [7,33,43],
 		"innerColor": [213,249,255],
 		"uniqueName": "Ethereal Forms",
 		"uniques": [
 			"Starts with [Death] adopted",
 			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
-			"Units ending their turn on [Mountain] tiles take [50] damage"
+			"Units ending their turn on [Mountain] tiles take [50] damage",
+			"Units ignore terrain costs when moving into any tile with Hills"
 		],
 		"cities": [
 			"Spooky 01","Spooky 02","Spooky 03","Spooky 04","Spooky 05","Spooky 06","Spooky 07","Spooky 08","Spooky 09","Spooky 10",

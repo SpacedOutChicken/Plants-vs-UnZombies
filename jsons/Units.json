@@ -67,6 +67,7 @@
 		"uniqueTo": "Zombies",
 		"replaces": "Grunt",
 		"unitType": "Melee Undead",
+		"upgradesTo": "Shambling Zombie",
 		"movement": 2,
 		"strength": 8,
 		"cost": 20,
@@ -85,6 +86,45 @@
 
 
 	{
+		"name": "Shambling Zombie",
+		"unitType": "Melee Undead",
+		"movement": 3,
+		"strength": 10,
+		"cost": 40,
+		"upgradesTo": "Buckethead Zombie",
+		"uniques": [
+			"Only available <after adopting [Death]>"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Buckethead Zombie",
+		"unitType": "Melee Undead",
+		"movement": 3,
+		"strength": 12,
+		"cost": 50,
+		"uniques": [
+			"Only available <after adopting [Death]>",
+			"[+25]% Strength <when defending>"
+		],
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Hopping Zombie",
+		"unitType": "Melee Undead",
+		"movement": 4,
+		"strength": 10,
+		"cost": 50,
+		"uniques": [
+			"Only available <after adopting [Death]>",
+			"May Paradrop up to [10] tiles from inside friendly territory"
+		],
+		"attackSound": "nonmetalhit"
+	},
+
+
+	{
 		"name": "Pepper Spray",
 		"unitType": "Ranged Plant",
 		"movement": 2,
@@ -97,6 +137,74 @@
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shot"
+	},
+
+	{
+		"name": "Mammoth Fossil",
+		"unitType": "Heavy Undead",
+		"movement": 3,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Resurrection",
+		"uniques": [
+			"Only available <after adopting [Death]>"
+		],
+		"attackSound": "elephant"
+	},
+	{
+		"name": "Zom-boni",
+		"uniqueTo": "Zombies",
+		"replaces": "Mammoth Fossil",
+		"unitType": "Heavy Undead",
+		"movement": 3,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Resurrection",
+		"uniques": [
+			"Only available <after adopting [Death]>",
+			"Double movement in [Snow]",
+			"Double movement in [Tundra]"
+		],
+		"attackSound": "elephant"
+	},
+
+	{
+		"name": "Spud Gun",
+		"unitType": "Siege Plant",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 12,
+		"upgradesTo": "Corn Cob Cannon",
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Corn Cob Cannon",
+		"unitType": "Siege Plant",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 15,
+		"upgradesTo": "Long-Range Celery",
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Long-Range Celery",
+		"unitType": "Siege Plant",
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 20,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "artillery"
 	},
 
 	//  Great People

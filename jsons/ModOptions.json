@@ -1,8 +1,7 @@
 {
     "isBaseRuleset": true,
     "uniques": [
-        "Disable religion",
-        "Can trade civilization introductions for [100] Gold"
+        "Disable religion"
     ],
     "constants": {
         "maxXPfromBarbarians":150,
@@ -10,6 +9,7 @@
         "cityStrengthPerPop":0.2,
         "cityStrengthFromTechsMultiplier": 5,
         "cityStrengthFromTechsExponent": 2,
+        "unitSupplyPerPopulation": 2,
         "unitUpgradeCost": {}
     }
 }
