@@ -23,13 +23,15 @@
 	},
 
     {
-        "name": "Vampire Fangs",
+        "name": "Crypt",
         "hurryCostModifier": 25,
 		"maintenance": 1,
+        "production": 1,
 		"uniques": [
+            "Only available <after adopting [Death]>",
             "New [Military] units start with [15] Experience [in this city]",
             "Never destroyed when the city is captured"
         ],
-		"requiredTech": "Bite"
+		"requiredTech": "Death"
     }
 ]

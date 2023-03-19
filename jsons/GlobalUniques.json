@@ -8,7 +8,6 @@
 
         "Enables embarkation for land units",
         "Enables [All] units to enter ocean tiles",
-
-        "Enables conversion of city production to [Gold]"
+        "[+1] Movement <for [Embarked] units>"
     ]
 }

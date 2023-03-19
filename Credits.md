@@ -20,6 +20,7 @@ Nations:
 * Seaweeds: [Seaweed](https://thenounproject.com/icon/seaweed-887644/) by James Smith
 * Specters: [Ghost](https://thenounproject.com/icon/ghost-7897/) by Dmitry Baranovskiy
 * Vampires: [fangs](https://thenounproject.com/icon/fangs-50658/) by Alexander Wiefel
+* Werefolk: [Wolf](https://thenounproject.com/icon/wolf-4074312/) by IronSV
 * Zombies: based on [zombie hand](https://thenounproject.com/icon/zombie-hand-3994055/) by Melvin Salas
 
 Promotions:
@@ -27,6 +28,7 @@ Promotions:
 * Off-Road: [Jeep](https://thenounproject.com/icon/jeep-7854/) by Luis Prado
 * Over the Fence: [over](https://thenounproject.com/icon/over-2900915/) by Adrien Coquet
 * Piggyback: [piggy](https://thenounproject.com/icon/piggy-2964621/) by Hrbon
+* Silver Bullet: [Bullet](https://thenounproject.com/icon/bullet-1048861/) by Monjin Friends
 * The Quick and the Dead: based on [dead](https://thenounproject.com/icon/dead-218870/) by Wolf Böse
 
 Stats:

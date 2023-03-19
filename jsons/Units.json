@@ -131,7 +131,6 @@
 		"strength": 15,
 		"rangedStrength": 20,
 		"cost": "40",
-		"requiredTech": "Firewood",
 		"uniques": [
 			"Only available <after adopting [Life]>",
 			"Never appears as a Barbarian unit"
@@ -140,7 +139,7 @@
 	},
 
 	{
-		"name": "Mammoth Fossil",
+		"name": "Fossilized Mammoth",
 		"unitType": "Heavy Undead",
 		"movement": 3,
 		"strength": 20,
@@ -154,7 +153,7 @@
 	{
 		"name": "Zom-boni",
 		"uniqueTo": "Zombies",
-		"replaces": "Mammoth Fossil",
+		"replaces": "Fossilized Mammoth",
 		"unitType": "Heavy Undead",
 		"movement": 3,
 		"strength": 20,

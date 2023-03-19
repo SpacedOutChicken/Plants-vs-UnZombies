@@ -1,47 +1,47 @@
 [
     {
         "name": "extra culture",
-        "notification": "We have gained [cultureAmount] culture!",
+        "notification": "We have gained [cultureAmount] culture from the camp!",
         "uniques": ["Gain [20]-[30] [Culture]"]
     },
     {
         "name": "free technology",
-        "notification": "We have learned the technology of [techName]!",
+        "notification": "We have learned the technology of [techName] from the camp!",
         "uniques": ["[1] free random researchable Tech(s) from the [Seed era]"]
     },
     {
         "name": "extra science",
-        "notification": "We have gained [scienceAmount] science!",
+        "notification": "We have gained [scienceAmount] science from the camp!",
         "uniques": ["Gain [50]-[100] [Science]"]
     },
     {
         "name": "free worker",
-        "notification": "A [Worker] has joined us!",
+        "notification": "A [Worker] from the camp has joined us!",
         "uniques": ["Free [Worker] found in the ruins"]
     },
     {
         "name": "free grunt",
-        "notification": "A [Grunt] has joined us!",
+        "notification": "A [Grunt] from the camp has joined us!",
         "uniques": ["Free [Grunt] found in the ruins"]
     },
     {
         "name": "free xp",
-        "notification": "Our unit has gained XP!",
+        "notification": "Our unit has gained XP from the camp!",
         "uniques": ["This Unit gains [10] XP"]
     },
     {
         "name": "free population",
-        "notification": "[cityName] has gained population!",
+        "notification": "[cityName] has gained population from the camp!",
         "uniques": ["[+1] population in a random city"]
     },
     {
         "name": "extra sunshine",
-        "notification": "We have gained [goldAmount] Sunshine!",
+        "notification": "We have gained [goldAmount] Sunshine from the camp!",
         "uniques": ["Gain [50]-[100] [Gold]"]
     },
     {
         "name": "advanced weaponry for your explorer",
-        "notification": "Our unit finds advanced weaponry!",
+        "notification": "Our unit finds advanced weaponry in the camp!",
         "uniques": ["This Unit upgrades for free including special upgrades"]
     },
     {
@@ -51,7 +51,7 @@
     },
     {
         "name": "find a crudely-drawn map",
-        "notification": "We have found a crudely-drawn map!",
+        "notification": "We have found a crudely-drawn map in the camp!",
         "uniques": ["From a randomly chosen tile [4] tiles away, reveal tiles up to [4] tiles away with [80]% chance"]
     }
 ]

@@ -1,558 +1,579 @@
 
 game.png
-size: 2048, 256
+size: 1024, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Home Base
   rotate: false
-  xy: 544, 152
+  xy: 328, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Seed of Madness
   rotate: false
-  xy: 1192, 44
+  xy: 652, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Amusing
   rotate: false
-  xy: 4, 152
+  xy: 4, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Nutritious
   rotate: false
-  xy: 868, 152
+  xy: 544, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Productive
   rotate: false
-  xy: 976, 44
+  xy: 544, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Refined
   rotate: false
-  xy: 1084, 152
+  xy: 652, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Stimulating
   rotate: false
-  xy: 1516, 152
+  xy: 868, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 EmojiIcons/Gold
   rotate: false
-  xy: 1732, 144
+  xy: 868, 242
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+NationIcons/Florists
+  rotate: false
+  xy: 112, 192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Myconoids
   rotate: false
-  xy: 760, 152
+  xy: 328, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Plantae
   rotate: false
-  xy: 976, 152
+  xy: 436, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Seaweeds
   rotate: false
-  xy: 1192, 152
+  xy: 544, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Specters
   rotate: false
-  xy: 1408, 152
+  xy: 652, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Vampires
   rotate: false
-  xy: 1516, 44
+  xy: 652, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Werefolk
+  rotate: false
+  xy: 760, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Zombies
   rotate: false
-  xy: 1624, 44
+  xy: 760, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Death
   rotate: false
-  xy: 1732, 202
+  xy: 4, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Life
   rotate: false
-  xy: 1848, 202
+  xy: 868, 126
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ResourceIcons/Coral
   rotate: false
-  xy: 220, 44
+  xy: 220, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Fossil Fuel
   rotate: false
-  xy: 328, 44
+  xy: 220, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileIcons/Buy
   rotate: false
-  xy: 220, 152
+  xy: 112, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 OtherIcons/ConvertGold
   rotate: false
-  xy: 220, 152
+  xy: 112, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 StatIcons/Gold
   rotate: false
-  xy: 220, 152
+  xy: 112, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Renewal era
   rotate: false
-  xy: 1964, 160
+  xy: 584, 42
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Sapling era
   rotate: false
-  xy: 44, 4
+  xy: 976, 440
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Seed era
   rotate: false
-  xy: 84, 4
+  xy: 926, 224
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Snag era
   rotate: false
-  xy: 1772, 45
+  xy: 624, 43
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Sprout era
   rotate: false
-  xy: 124, 4
+  xy: 976, 400
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Tree era
   rotate: false
-  xy: 164, 4
+  xy: 926, 184
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coral
   rotate: false
-  xy: 1812, 48
+  xy: 584, 4
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fossil Fuel
   rotate: false
-  xy: 284, 8
+  xy: 926, 148
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fuel pump
   rotate: false
-  xy: 324, 8
+  xy: 704, 48
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Fuel pump-water
   rotate: false
-  xy: 364, 8
+  xy: 976, 328
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Graveyard
   rotate: false
-  xy: 1906, 67
+  xy: 704, 7
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lawn
   rotate: false
-  xy: 1946, 103
+  xy: 784, 7
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sunflowers
   rotate: false
-  xy: 764, 8
+  xy: 966, 148
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Woodland park
   rotate: false
-  xy: 804, 8
+  xy: 926, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Boss Zombie
   rotate: false
-  xy: 4, 8
+  xy: 976, 480
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Buckethead Zombie
   rotate: false
-  xy: 1732, 50
+  xy: 926, 264
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Button
   rotate: false
-  xy: 1906, 108
+  xy: 868, 90
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Corn Cob Cannon
   rotate: false
-  xy: 204, 8
+  xy: 624, 7
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Friendly Ghost
   rotate: false
-  xy: 1852, 50
+  xy: 664, 48
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Friendly Ghost
   rotate: false
-  xy: 1852, 50
+  xy: 664, 48
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Necromancer
   rotate: false
-  xy: 244, 8
+  xy: 976, 364
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Necromancer
   rotate: false
-  xy: 244, 8
+  xy: 976, 364
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Fossilized Mammoth
+  rotate: false
+  xy: 664, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General
   rotate: false
-  xy: 404, 8
+  xy: 744, 48
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Grunt
   rotate: false
-  xy: 444, 8
+  xy: 744, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hopping Zombie
   rotate: false
-  xy: 484, 8
+  xy: 784, 48
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Long-Range Celery
   rotate: false
-  xy: 524, 8
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Mammoth Fossil
-  rotate: false
-  xy: 1946, 67
+  xy: 824, 48
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pepper Spray
   rotate: false
-  xy: 564, 8
+  xy: 824, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Sapling
   rotate: false
-  xy: 604, 8
+  xy: 976, 292
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Shambling Zombie
   rotate: false
-  xy: 644, 8
+  xy: 966, 256
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Skeleton
   rotate: false
-  xy: 684, 8
+  xy: 966, 220
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spud Gun
   rotate: false
-  xy: 724, 8
+  xy: 966, 184
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zom-boni
   rotate: false
-  xy: 844, 8
+  xy: 966, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 UnitIcons/Boss Zombie
   rotate: false
-  xy: 4, 44
+  xy: 4, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Buckethead Zombie
   rotate: false
-  xy: 112, 152
+  xy: 112, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Button
   rotate: false
-  xy: 112, 44
+  xy: 4, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Corn Cob Cannon
   rotate: false
-  xy: 328, 152
+  xy: 4, 84
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Fossilized Mammoth
+  rotate: false
+  xy: 328, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Friendly Ghost
   rotate: false
-  xy: 436, 152
+  xy: 112, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Grunt
   rotate: false
-  xy: 436, 44
+  xy: 220, 192
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hopping Zombie
   rotate: false
-  xy: 544, 44
+  xy: 436, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Long-Range Celery
   rotate: false
-  xy: 652, 152
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Mammoth Fossil
-  rotate: false
-  xy: 652, 44
+  xy: 220, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Necromancer
   rotate: false
-  xy: 760, 44
+  xy: 436, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pepper Spray
   rotate: false
-  xy: 868, 44
+  xy: 328, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sapling
   rotate: false
-  xy: 1084, 44
+  xy: 436, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Shambling Zombie
   rotate: false
-  xy: 1300, 152
+  xy: 760, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Skeleton
   rotate: false
-  xy: 1300, 44
+  xy: 544, 84
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Spud Gun
   rotate: false
-  xy: 1408, 44
+  xy: 760, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zom-boni
   rotate: false
-  xy: 1624, 152
+  xy: 868, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Head Shot
   rotate: false
-  xy: 1790, 202
+  xy: 62, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Herbicide
   rotate: false
-  xy: 1732, 86
+  xy: 868, 184
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Leaf on the Wind
   rotate: false
-  xy: 1790, 144
+  xy: 120, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Off-Road
   rotate: false
-  xy: 1790, 86
+  xy: 178, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/On the Move
   rotate: false
-  xy: 1848, 144
+  xy: 236, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Over the Fence
   rotate: false
-  xy: 1906, 202
+  xy: 294, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Piggyback
   rotate: false
-  xy: 1848, 86
+  xy: 352, 26
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Silver Bullet
+  rotate: false
+  xy: 410, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sixth Sense
   rotate: false
-  xy: 1906, 144
+  xy: 468, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/The Quick and the Dead
   rotate: false
-  xy: 1964, 202
+  xy: 526, 26
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

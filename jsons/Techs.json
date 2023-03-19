@@ -1,266 +1,272 @@
 [
-      {
-            "columnNumber": 0,
-            "era": "Seed era",
-            "techCost": 20,
-            "buildingCost": 40,
-            "wonderCost": 100,
-            "techs": [
-                  {
-                        "name": "The Wheel",
-                        "row": 6,
-                        "quote": "Does anyone actually read the quote for the starting tech?",
-                        "uniques": ["Starting tech"]
-                  }
-            ]     
-      },
-      {
-            "columnNumber": 1,
-            "era": "Seed era",
-            "techCost": 20, 
-            "buildingCost": 40,
-            "wonderCost": 100,
-            "techs": [
-                  {
-                        "name": "Thorns",
-                        "row": 3,
-                        "prerequisites": ["The Wheel"],
-                        "quote": "Don't touch!"
-                  },
-                  {
-                        "name": "Roots",
-                        "row": 5,
-                        "prerequisites": ["The Wheel"],
-                        "quote": "Diggy diggy hole, diggy diggy hole."
-                  },
-                  {
-                        "name": "Spores",
-                        "row": 7,
-                        "prerequisites": ["The Wheel"],
-                        "quote": "Life finds a way."
-                  },
-                  {
-                        "name": "Leaves",
-                        "row": 9,
-                        "prerequisites": ["The Wheel"],
-                        "quote": "Let the sun shine!"
-                  }
-            ]     
-      },
-      {
-            "columnNumber": 2,
-            "era": "Sprout era",
-            "techCost": 35,
-            "buildingCost": 60,
-		"wonderCost": 185,
-            "techs": [
-                  {
-                        "name": "Bark",
-                        "row": 4,
-                        "prerequisites": ["Thorns", "Roots"],
-                        "quote": "A little something to keep the beetles away."
-                  },
-                  {
-                        "name": "Trunks",
-                        "row": 6,
-                        "prerequisites": ["Roots", "Spores"],
-                        "quote": "It takes a little effort to grow that tall."
-                  },
-                  {
-                        "name": "Bite",
-                        "row": 8,
-                        "prerequisites": ["Spores", "Leaves"],
-                        "quote": "All flesh must be eaten."
-                  }
-            ]
-      },
-      {
-            "columnNumber": 3,
-            "era": "Sprout era",
-            "techCost": 55, 
-            "buildingCost": 75,
-            "wonderCost": 185,
-            "techs": [
-                 {
-                        "name": "Fruits",
-                        "row": 5,
-                        "prerequisites": ["Bark", "Trunks"],
-                        "quote": "Delicious!"
-                 },
-                 {
-                        "name": "Rot",
-                        "row": 7,
-                        "prerequisites": ["Trunks", "Bite"],
-                        "quote": "Nothing lasts forever."
-                 }
-            ]     
-      },
-      {
-            "columnNumber": 4,
-            "era": "Sapling era",
-            "techCost": 105, 
-            "buildingCost": 100,
-            "wonderCost": 250,
-            "techs": [
-                  {
-                        "name": "Airborne",
-                        "row": 4,
-                        "prerequisites": ["Fruits"],
-                        "uniques": ["[+1] Movement <for [Embarked] units>"],
-                        "quote": "Whee!"
-                  },
-                  {
-                        "name": "Toxins",
-                        "row": 6,
-                        "prerequisites": ["Fruits", "Rot"],
-                        "quote": "DANGER: DO NOT EAT"
-                  },
-                  {
-                        "name": "Mulch",
-                        "row": 8,
-                        "prerequisites": ["Rot"],
-                        "quote": "Reduce. Reuse. Reanimate."
-                  }
-            ]     
-      },
-      {
-            "columnNumber": 5,
-            "era": "Sapling era",
-            "techCost": 175, 
-            "buildingCost": 120,
-            "wonderCost": 300,
-            "techs": [
+    {
+          "columnNumber": 0,
+          "era": "Seed era",
+          "techCost": 40,
+          "buildingCost": 40,
+          "wonderCost": 100,
+          "techs": [
                 {
-                        "name": "Symbiosis",
-                        "row": 5,
-                        "prerequisites": ["Airborne", "Toxins"],
-                        "quote": "Why can't we be friends?"
-                },
-                {
-                        "name": "Parasites",
-                        "row": 7,
-                        "prerequisites": ["Toxins", "Mulch"],
-                        "quote": "Gosh-darned freeriders..."
+                      "name": "The Wheel",
+                      "row": 6,
+                      "quote": "Does anyone actually read the quote for the starting tech?",
+                      "uniques": ["Starting tech"]
                 }
-            ]     
-      },
-      {
-            "columnNumber": 6,
-            "era": "Tree era",
-            "techCost": 275,
-            "buildingCost": 160,
-            "wonderCost": 400,
-            "techs": [
-                 {
-                        "name": "Conifers",
-                        "row": 3,
-                        "prerequisites": ["Symbiosis"],
-                        "quote": "Looks like a top, doesn't it?"
-                 },
-                 {
-                        "name": "Ballistic Seeds",
-                        "row": 5,
-                        "prerequisites": ["Symbiosis"],
-                        "quote": "Pew pew pew!"
-                 },
-                 {
-                        "name": "Insectivores",
-                        "row": 7,
-                        "prerequisites": ["Parasites"],
-                        "quote": "Gotta get your nitrogen somehow."
-                 },
-                 {
-                        "name": "Digestion",
-                        "row": 9,
-                        "prerequisites": ["Parasites"],
-                        "quote": "It does a body good!"
-                 }
-            ]
-      },
-      {
-            "columnNumber": 7,
-            "era": "Tree era",
-            "techCost": 485, 
-            "buildingCost": 200,
-            "wonderCost": 500,
-            "techs": [
+          ]     
+    },
+    {
+          "columnNumber": 1,
+          "era": "Seed era",
+          "techCost": 40, 
+          "buildingCost": 40,
+          "wonderCost": 100,
+          "techs": [
                 {
-                        "name": "Dispersal",
-                        "row": 4,
-                        "prerequisites": ["Conifers", "Ballistic Seeds"],
-                        "uniques": ["[+1] Movement <for [Embarked] units>"],
-                        "quote": "Oh, the places you'll go."
+                      "name": "Death",
+                      "row": 3,
+                      "prerequisites": ["The Wheel"],
+                      "quote": "Rest in peace."
                 },
                 {
-                        "name": "Firewood",
-                        "row": 6,
-                        "prerequisites": ["Ballistic Seeds", "Insectivores"],
-                        "quote": "Burn, baby, burn!"
+                      "name": "Roots",
+                      "row": 5,
+                      "prerequisites": ["The Wheel"],
+                      "quote": "Diggy diggy hole, diggy diggy hole."
                 },
                 {
-                        "name": "Vampirism",
-                        "row": 8,
-                        "prerequisites": ["Insectivores", "Digestion"],
-                        "quote": "Suck it up, buttercup."
+                      "name": "Spores",
+                      "row": 7,
+                      "prerequisites": ["The Wheel"],
+                      "quote": "Life finds a way."
+                },
+                {
+                      "name": "Photosynthesis",
+                      "row": 9,
+                      "prerequisites": ["The Wheel"],
+                      "uniques": ["Enables conversion of city production to [Gold]"],
+                      "quote": "Let the sun shine!"
                 }
-            ]     
-      },
-      {
-            "columnNumber": 8,
-            "era": "Snag era",
-            "techCost": 780, 
-            "buildingCost": 250,
-            "wonderCost": 625,
-            "techs": [
-                  {
-                        "name": "Chemosynthesis",
-                        "row": 5,
-                        "prerequisites": ["Dispersal", "Firewood"],
-                        "quote": "When light isn't available."
-                  },
-                  {
-                        "name": "Resurrection",
-                        "row": 7,
-                        "prerequisites": ["Firewood", "Vampirism"],
-                        "quote": "That is not dead, which can eternal lie..."
-                  }
-            ]     
-      },
-      {
-            "columnNumber": 9,
-            "era": "Snag era",
-            "techCost": 1150, 
-            "buildingCost": 300,
-            "wonderCost": 750,
-            "techs": [
-                  {
-                        "name": "The Green",
-                        "row": 5,
-                        "prerequisites": ["Chemosynthesis", "Resurrection"],
-                        "quote": "It isn't easy being green."
-                  },
-                  {
-                        "name": "The Red",
-                        "row": 7,
-                        "prerequisites": ["Chemosynthesis", "Resurrection"],
-                        "quote": "If it bleeds, we can kill it!"
-                  }
-            ]     
-      },
-      {
-            "columnNumber": 10,
-            "era": "Renewal era",
-            "techCost": 1600,
-            "buildingCost": 360,
-            "wonderCost": 920,
-            "techs": [
-                  {
-                        "name": "The End",
-                        "row": 6,
-                        "prerequisites": ["The Green", "The Red"],
-                        "quote": "Alright, wrap it up. No more work to do here.",
-                        "uniques": ["Can be continually researched"]
-                  }
-            ]     
-      }
+          ]     
+    },
+    {
+        "columnNumber": 2,
+        "era": "Sprout era",
+        "techCost": 70,
+        "buildingCost": 60,
+        "wonderCost": 185,
+        "techs": [
+                {
+                      "name": "Decay",
+                      "row": 4,
+                      "prerequisites": ["Death", "Roots"],
+                      "quote": "Nothing lasts forever."
+                },
+                {
+                      "name": "Thorns",
+                      "row": 6,
+                      "prerequisites": ["Roots", "Spores"],
+                      "quote": "Don't touch!"
+                },
+                {
+                      "name": "Stems",
+                      "row": 8,
+                      "prerequisites": ["Spores", "Photosynthesis"],
+                      "quote": "Just the thing for standing tall."
+                }
+          ]
+    },
+    {
+          "columnNumber": 3,
+          "era": "Sprout era",
+          "techCost": 110, 
+          "buildingCost": 75,
+          "wonderCost": 185,
+          "techs": [
+               {
+                      "name": "Putrefaction",
+                      "row": 5,
+                      "prerequisites": ["Decay", "Thorns"],
+                      "quote": "It stinks!"
+               },
+               {
+                      "name": "Leaves",
+                      "row": 7,
+                      "prerequisites": ["Thorns", "Stems"],
+                      "quote": "Sun goes in, air comes out."
+               }
+          ]     
+    },
+    {
+          "columnNumber": 4,
+          "era": "Sapling era",
+          "techCost": 210, 
+          "buildingCost": 100,
+          "wonderCost": 250,
+          "techs": [
+                {
+                      "name": "Symbiosis",
+                      "row": 4,
+                      "prerequisites": ["Putrefaction"],
+                      "quote": "Why can't we be friends?"
+                },
+                {
+                      "name": "Toxins",
+                      "row": 6,
+                      "prerequisites": ["Putrefaction", "Leaves"],
+                      "quote": "DANGER: DO NOT EAT"
+                },
+                {
+                      "name": "Wood",
+                      "row": 8,
+                      "prerequisites": ["Leaves"],
+                      "quote": "When you need some structure in your life."
+                }
+          ]     
+    },
+    {
+          "columnNumber": 5,
+          "era": "Sapling era",
+          "techCost": 350, 
+          "buildingCost": 120,
+          "wonderCost": 300,
+          "techs": [
+              {
+                      "name": "Seeds",
+                      "row": 5,
+                      "prerequisites": ["Symbiosis", "Toxins"],
+                      "quote": "Think big. Start small."
+              },
+              {
+                      "name": "Fermentation",
+                      "row": 7,
+                      "prerequisites": ["Toxins", "Wood"],
+                      "quote": "Bubbly, bubbly."
+              }
+          ]     
+    },
+    {
+          "columnNumber": 6,
+          "era": "Tree era",
+          "techCost": 550,
+          "buildingCost": 160,
+          "wonderCost": 400,
+          "techs": [
+               {
+                      "name": "Conifers",
+                      "row": 3,
+                      "prerequisites": ["Seeds"],
+                      "quote": "Looks like a top, doesn't it?"
+               },
+               {
+                      "name": "Flowers",
+                      "row": 5,
+                      "prerequisites": ["Seeds"],
+                      "quote": "A rose by any other name..."
+               },
+               {
+                      "name": "Insectivores",
+                      "row": 7,
+                      "prerequisites": ["Fermentation"],
+                      "quote": "Gotta get your nitrogen somehow."
+               },
+               {
+                      "name": "Digestion",
+                      "row": 9,
+                      "prerequisites": ["Fermentation"],
+                      "quote": "It does a body good!"
+               }
+          ]
+    },
+    {
+          "columnNumber": 7,
+          "era": "Tree era",
+          "techCost": 970, 
+          "buildingCost": 200,
+          "wonderCost": 500,
+          "techs": [
+              {
+                      "name": "Dispersal",
+                      "row": 4,
+                      "prerequisites": ["Conifers", "Flowers"],
+                      "uniques": ["[+1] Movement <for [Embarked] units>"],
+                      "quote": "Oh, the places you'll go."
+              },
+              {
+                      "name": "Grass",
+                      "row": 6,
+                      "prerequisites": ["Flowers", "Insectivores"],
+                      "quote": "Always greener on the other side?"
+              },
+              {
+                      "name": "Decomposition",
+                      "row": 8,
+                      "prerequisites": ["Insectivores", "Digestion"],
+                      "quote": "Break it down."
+              }
+          ]     
+    },
+    {
+          "columnNumber": 8,
+          "era": "Snag era",
+          "techCost": 1560, 
+          "buildingCost": 250,
+          "wonderCost": 625,
+          "techs": [
+                {
+                      "name": "Fruits",
+                      "row": 5,
+                      "prerequisites": ["Dispersal", "Grass"],
+                      "quote": "Delicious!"
+                },
+                {
+                      "name": "Resurrection",
+                      "row": 7,
+                      "prerequisites": ["Grass", "Decomposition"],
+                      "quote": "That is not dead, which can eternal lie..."
+                }
+          ]     
+    },
+    {
+          "columnNumber": 9,
+          "era": "Snag era",
+          "techCost": 2300, 
+          "buildingCost": 300,
+          "wonderCost": 750,
+          "techs": [
+                {
+                      "name": "The Green",
+                      "row": 4,
+                      "prerequisites": ["Fruits"],
+                      "quote": "It isn't easy being green."
+                },
+                {
+                      "name": "The Red",
+                      "row": 6,
+                      "prerequisites": ["Fruits", "Resurrection"],
+                      "quote": "If it bleeds, we can kill it!"
+                },
+                {
+                    "name": "The Rot",
+                    "row": 8,
+                    "prerequisites": ["Resurrection"],
+                    "quote": "Time crumbles things."
+                }
+          ]     
+    },
+    {
+          "columnNumber": 10,
+          "era": "Renewal era",
+          "techCost": 3200,
+          "buildingCost": 360,
+          "wonderCost": 920,
+          "techs": [
+                {
+                      "name": "The End",
+                      "row": 6,
+                      "prerequisites": ["The Green", "The Red", "The Rot"],
+                      "quote": "Alright, wrap it up. No more work to do here.",
+                      "uniques": ["Can be continually researched"]
+                }
+          ]     
+    }
 ]
