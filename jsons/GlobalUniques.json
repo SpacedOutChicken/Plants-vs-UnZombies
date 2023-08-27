@@ -8,6 +8,7 @@
 
         "Enables embarkation for land units",
         "Enables [All] units to enter ocean tiles",
-        "[+1] Movement <for [Embarked] units>"
+        "[+1] Movement <for [Embarked] units>",
+        "[-1] Sight <for [Embarked] units>"
     ]
 }

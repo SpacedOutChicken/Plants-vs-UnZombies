@@ -78,7 +78,7 @@
     },
 
 	{
-		"name": "Head Shot",
+		"name": "Silver Bullet",
 		"uniques": ["[+15]% Strength <vs [Undead] units>"],
 		"unitTypes": [
 			"Bomber Plant",
@@ -257,9 +257,8 @@
 		]
 	},
 
-	// Uniques that should be kept on upgrades
 	{
-		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
-		"uniques": ["All healing effects doubled"]
+		"name": "Solar Power",
+		"uniques": ["Gain [1] [Gold] <upon ending a turn in a [Open terrain] tile>"]
 	}
 ]

@@ -2,19 +2,18 @@
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 1,
+		"movement": 3,
+		"cost": 50,
 		"uniques": [
-			"Founds a new city <for [1] movement>",
+			"Founds a new city <by consuming this unit>",
 			"Uncapturable",
-			"Limited to [1] per Civilization",
-			"Free [Settler] appears <upon being defeated>"
+			"Free [Settler] appears <upon being defeated> <with [25]% chance>"
 		]
 	},
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
-		"movement": 2,
+		"movement": 3,
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
@@ -37,7 +36,7 @@
 	{
 		"name": "Grunt",
 		"unitType": "Melee Plant",
-		"movement": 2,
+		"movement": 3,
 		"strength": 8,
 		"cost": 20,
 		"attackSound": "nonmetalhit"
@@ -47,7 +46,7 @@
 		"uniqueTo": "Plantae",
 		"replaces": "Grunt",
 		"unitType": "Melee Plant",
-		"movement": 2,
+		"movement": 3,
 		"strength": 8,
 		"cost": 20,
 		"attackSound": "nonmetalhit"
@@ -57,7 +56,7 @@
 		"uniqueTo": "Myconoids",
 		"replaces": "Grunt",
 		"unitType": "Melee Plant",
-		"movement": 2,
+		"movement": 3,
 		"strength": 8,
 		"cost": 20,
 		"attackSound": "nonmetalhit"
@@ -68,7 +67,7 @@
 		"replaces": "Grunt",
 		"unitType": "Melee Undead",
 		"upgradesTo": "Shambling Zombie",
-		"movement": 2,
+		"movement": 3,
 		"strength": 8,
 		"cost": 20,
 		"attackSound": "nonmetalhit"
@@ -78,7 +77,7 @@
 		"uniqueTo": "Specters",
 		"replaces": "Grunt",
 		"unitType": "Floating Melee Undead",
-		"movement": 2,
+		"movement": 3,
 		"strength": 8,
 		"cost": 20,
 		"attackSound": "nonmetalhit"
@@ -105,7 +104,8 @@
 		"cost": 50,
 		"uniques": [
 			"Only available <after adopting [Death]>",
-			"[+25]% Strength <when defending>"
+			"[+25]% Strength <when defending>",
+			"Free [Shambling Zombie] appears <upon being defeated> <with [25]% chance>"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -127,10 +127,10 @@
 	{
 		"name": "Pepper Spray",
 		"unitType": "Ranged Plant",
-		"movement": 2,
+		"movement": 3,
 		"strength": 15,
 		"rangedStrength": 20,
-		"cost": "40",
+		"cost": 40,
 		"uniques": [
 			"Only available <after adopting [Life]>",
 			"Never appears as a Barbarian unit"
@@ -141,7 +141,7 @@
 	{
 		"name": "Fossilized Mammoth",
 		"unitType": "Heavy Undead",
-		"movement": 3,
+		"movement": 4,
 		"strength": 20,
 		"cost": 40,
 		"requiredTech": "Resurrection",
@@ -155,7 +155,7 @@
 		"uniqueTo": "Zombies",
 		"replaces": "Fossilized Mammoth",
 		"unitType": "Heavy Undead",
-		"movement": 3,
+		"movement": 4,
 		"strength": 20,
 		"cost": 40,
 		"requiredTech": "Resurrection",
@@ -168,11 +168,26 @@
 	},
 
 	{
+		"name": "Salad Tosser",
+		"unitType": "Siege Plant",
+		"movement": 3,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 20,
+		"upgradesTo": "Spud Gun",
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "throw"
+	},
+	{
 		"name": "Spud Gun",
 		"unitType": "Siege Plant",
-		"movement": 2,
+		"movement": 3,
 		"strength": 10,
 		"rangedStrength": 12,
+		"cost": 20,
 		"upgradesTo": "Corn Cob Cannon",
 		"uniques": [
 			"Only available <after adopting [Life]>",
@@ -183,9 +198,10 @@
 	{
 		"name": "Corn Cob Cannon",
 		"unitType": "Siege Plant",
-		"movement": 2,
+		"movement": 3,
 		"strength": 12,
 		"rangedStrength": 15,
+		"cost": 30,
 		"upgradesTo": "Long-Range Celery",
 		"uniques": [
 			"Only available <after adopting [Life]>",
@@ -196,15 +212,57 @@
 	{
 		"name": "Long-Range Celery",
 		"unitType": "Siege Plant",
-		"movement": 2,
+		"movement": 3,
 		"strength": 15,
 		"rangedStrength": 20,
+		"range": 3,
+		"cost": 40,
 		"uniques": [
 			"Only available <after adopting [Life]>",
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": ["Over the Fence"],
 		"attackSound": "artillery"
 	},
+
+	{
+		"name": "Not-So-Great General",
+		"unitType": "Civilian",
+		"cost": 150,
+		"movement": 3,
+		"uniques": [
+			"[+10]% Strength bonus for [Military] units within [1] tiles",
+			"Uncapturable"
+		]
+	},
+	{
+		"name": "Discount",
+		"uniqueTo": "Vampires",
+		"replaces": "Not-So-Great General",
+		"unitType": "Civilian",
+		"cost": 150,
+		"movement": 4,
+		"uniques": [
+			"[+10]% Strength bonus for [Military] units within [1] tiles",
+			"Uncapturable",
+			"Ignores terrain cost"
+		]
+	},
+	{
+		"name": "Sigma Wolf",
+		"uniqueTo": "Werefolk",
+		"replaces": "Not-So-Great General",
+		"unitType": "Civilian",
+		"cost": 150,
+		"movement": 3,
+		"uniques": [
+			"[+10]% Strength bonus for [Military] units within [1] tiles",
+			"Uncapturable",
+			"All adjacent units heal [+10] HP when healing",
+			"[+10] HP when healing"
+		]
+	},
+
 
 	//  Great People
 	{
@@ -218,7 +276,7 @@
 			"Unbuildable",
 			"Uncapturable"
 		],
-		"movement": 2
+		"movement": 3
 	},
 	{
 		"name": "Boss Zombie",
@@ -233,7 +291,8 @@
 			"Uncapturable"
 		],
 		"strength": 20,
-		"movement": 2
+		"movement": 3,
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Necromancer",
@@ -251,10 +310,43 @@
 			"All tiles cost 1 movement",
 			"Ignores Zone of Control",
 			"Can see over obstacles",
-			"Normal vision when embarked",
-			"[1] Movement point cost to disembark",
-			"[1] Movement point cost to embark"
+			"May travel on Water tiles without embarking"
 		],
-		"movement": 2
+		"movement": 3
+	},
+	{
+		"name": "Count",
+		"unitType": "Civilian",
+		"uniqueTo": "Vampires",
+		"replaces": "Great General",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Ignores terrain cost",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Free [Discount] appears <upon being defeated> <with [25]% chance>",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 5
+	},
+	{
+		"name": "Alpha Wolf",
+		"unitType": "Civilian",
+		"uniqueTo": "Werefolk",
+		"replaces": "Great General",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing",
+			"[+15] HP when healing",
+			"Unit will heal every turn, even if it performs an action",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 4
 	}
 ]

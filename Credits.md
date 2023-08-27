@@ -39,11 +39,14 @@ Units:
 * Buckethead Zombie: [bucket](https://thenounproject.com/icon/bucket-1585520/) by bezier master
 * Button: [Mushroom](https://thenounproject.com/icon/mushroom-5561415/) by wahyakup
 * Corn Cob Cannon: [corn cob](https://thenounproject.com/icon/corn-cob-3929228/) by Lars Meiertoberens
+* Count: [Cross medal](https://thenounproject.com/icon/cross-medal-381604/) by Creative Stall
+* Discount: [Medal](https://thenounproject.com/icon/medal-5048235/) by Vectorstall
 * Friendly Ghost: [Ghost](https://thenounproject.com/icon/ghost-215178/) by diavd
 * Hopping Zombie: [jumping](https://thenounproject.com/icon/jumping-1994834/) by Alice Design
 * Long-Range Celery: [celery](https://thenounproject.com/icon/celery-3101882/) by Hadi
 * Necromancer: [necromancy](https://thenounproject.com/term/necromancy/1178598/) by HeadsOfBirds
 * Pepper Spray: [Pepper](https://thenounproject.com/icon/pepper-4374093/) by Adrien Coquet
+* Salad Tosser: [salad bowl](https://thenounproject.com/icon/salad-bowl-3769691/) by Smashing Stocks
 * Sapling: [sapling](https://thenounproject.com/icon/sapling-2051790/) by Vectors Market
 * Shambling Zombie: [zombie](https://thenounproject.com/icon/zombie-5301396/) by Syawaluddin
 * Skeleton: [Skull](https://thenounproject.com/icon/skull-247531/) by Cristiano Zoucas

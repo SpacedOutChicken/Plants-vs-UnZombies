@@ -2,7 +2,6 @@
 	{
 		"name": "Spectator",
 		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
 	},
 	{
 		"name": "Myconoids",
@@ -54,7 +53,9 @@
 		"uniqueName": "Ecosystem",
 		"uniques": [
 			"Starts with [Life] adopted",
-			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
+			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
+			"[+1 Production] from every [Forest]",
+			"[+1 Food] from every [Jungle]"
 		],
 		"cities": [
 			"Leafy 01","Leafy 02","Leafy 03","Leafy 04","Leafy 05","Leafy 06","Leafy 07","Leafy 08","Leafy 09","Leafy 10","Leafy 11",
@@ -87,7 +88,8 @@
 			"Starts with [Life] adopted",
 			"Defense bonus when embarked <for [All] units>",
 			"[+2] Movement <in [Water] tiles>",
-			"Normal vision when embarked <for [All] units>"
+			"[+1] Sight <for [Embarked] units>",
+			"[1] Movement point cost to disembark <for [All] units>"
 		],
 		"cities": [
 			"Water 01","Water 02","Water 03","Water 04","Water 05","Water 06","Water 07","Water 08","Water 09","Water 10",
@@ -145,12 +147,14 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing - to make this deal with me.",
 
-		"outerColor": [108, 0, 0],
-		"innerColor": [63, 131, 175],
+		"outerColor": [79,0,0],
+		"innerColor": [255,0,0],
 		"uniqueName": "The Blood Is the Life",
 		"uniques": [
 			"Starts with [Death] adopted",
-			"Earn [10]% of the damage done to [All] units as [Gold]"
+			"Heals [25] damage if it kills a unit",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+			"[-5] HP when healing <for [All] units> <in [Open terrain] tiles>"
 		],
 		"cities": [
 			"Sucker 01","Sucker 02","Sucker 03","Sucker 04","Sucker 05","Sucker 06","Sucker 07","Sucker 08","Sucker 09","Sucker 10",
@@ -185,10 +189,12 @@
 
 		"outerColor": [179, 178, 184],
 		"innerColor": [27, 33, 23],
-		"uniqueName": "Eat the Living",
+		"uniqueName": "The Mindless Horde",
 		"uniques": [
 			"Starts with [Death] adopted",
-			"Heals [25] damage if it kills a unit"
+			"[-25]% maintenance costs <for [All] units>",
+			"[+1] Unit Supply per [1] population [in all cities]",
+			"[+15]% Production when constructing [Military] units [in all cities]"
 		],
 		"cities": [
 			"Zombie 01","Zombie 02","Zombie 03","Zombie 04","Zombie 05","Zombie 06","Zombie 07","Zombie 08","Zombie 09","Zombie 10",
@@ -215,7 +221,6 @@
 		"uniques": [
 			"Starts with [Death] adopted",
 			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
-			"Units ending their turn on [Mountain] tiles take [50] damage",
 			"Units ignore terrain costs when moving into any tile with Hills"
 		],
 		"cities": [

@@ -13,7 +13,6 @@
 		"name": "Seed of Madness",
 		"cost": 1,
 		"hurryCostModifier": 0,
-		"maintenance": 0,
 		"uniques": [
             "Remove extra unhappiness from annexed cities",
             "Unsellable",
@@ -23,15 +22,24 @@
 	},
 
     {
+        "name": "Pot",
+        "food": 2,
+        "uniques": [
+            "[40]% Food is carried over after population increases [in this city]"
+        ],
+        "hurryCostModifier": 25,
+        "requiredTech": "Roots"
+    },
+
+    {
         "name": "Crypt",
         "hurryCostModifier": 25,
-		"maintenance": 1,
         "production": 1,
 		"uniques": [
             "Only available <after adopting [Death]>",
             "New [Military] units start with [15] Experience [in this city]",
             "Never destroyed when the city is captured"
         ],
-		"requiredTech": "Death"
+		"requiredTech": "Morbidity"
     }
 ]

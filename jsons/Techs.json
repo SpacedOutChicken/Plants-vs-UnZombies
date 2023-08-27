@@ -22,7 +22,7 @@
           "wonderCost": 100,
           "techs": [
                 {
-                      "name": "Death",
+                      "name": "Morbidity",
                       "row": 3,
                       "prerequisites": ["The Wheel"],
                       "quote": "Rest in peace."
@@ -58,7 +58,7 @@
                 {
                       "name": "Decay",
                       "row": 4,
-                      "prerequisites": ["Death", "Roots"],
+                      "prerequisites": ["Morbidity", "Roots"],
                       "quote": "Nothing lasts forever."
                 },
                 {
