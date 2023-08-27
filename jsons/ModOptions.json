@@ -1,7 +1,8 @@
 {
     "isBaseRuleset": true,
     "uniques": [
-        "Disable religion"
+        "Disable religion",
+        "Allow raze capital"
     ],
     "constants": {
         "maxXPfromBarbarians":150,
