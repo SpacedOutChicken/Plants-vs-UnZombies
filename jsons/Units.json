@@ -17,21 +17,10 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Can build [Land] improvements on tiles",
+			"Can build [Water] improvements on tiles",
 			"Automation is a primary action"
 		],
 		"cost": 20
-	},
-	{
-		"name": "Work Boats",
-		"unitType": "Civilian Water",
-		"movement": 4,
-		"cost": 10,
-		"uniques": [
-			"May create improvements on water resources",
-			"Uncapturable",
-			"Automation is a primary action"
-		],
-		"hurryCostModifier": 20
 	},
 	{
 		"name": "Grunt",
@@ -224,6 +213,36 @@
 		"promotions": ["Over the Fence"],
 		"attackSound": "artillery"
 	},
+
+	{
+		"name": "Plant Hero",
+		"unitType":"Melee Plant",
+		"cost": 20,
+		"strength": 30,
+		"movement": 3,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Only available <with [Kills]>",
+			"Instantly consumes [5] [Kills]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Undead Hero",
+		"unitType":"Melee Undead",
+		"cost": 20,
+		"strength": 30,
+		"movement": 3,
+		"uniques": [
+			"Only available <after adopting [Death]>",
+			"Only available <with [Kills]>",
+			"Instantly consumes [5] [Kills]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nonmetalhit"
+	},
+
 
 	{
 		"name": "Not-So-Great General",

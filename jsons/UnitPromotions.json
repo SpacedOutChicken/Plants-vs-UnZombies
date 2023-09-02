@@ -260,5 +260,10 @@
 	{
 		"name": "Solar Power",
 		"uniques": ["Gain [1] [Gold] <upon ending a turn in a [Open terrain] tile>"]
+	},
+
+	{
+		"name": "Kill Count",
+		"uniques": ["Instantly provides [1] [Kills] <upon defeating a [Military] unit>"]
 	}
 ]

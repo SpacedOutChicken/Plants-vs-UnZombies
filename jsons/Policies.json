@@ -40,7 +40,8 @@
 				"row": 2,
 				"column": 1,
 				"uniques": [
-					"[-33]% Gold cost of upgrading <for [Military] units>"
+					"[-33]% Gold cost of upgrading <for [Military] units>",
+					"[non-air] units gain the [Solar Power] promotion"
 				]
 			},
 			{
@@ -55,7 +56,7 @@
 			{
 				"name": "Life Complete",
 				"uniques": [
-					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+					"[100]% Yield from every [Improvement]"
 				]
 			}
 		]
@@ -128,9 +129,19 @@
 				]
 			},
 			{
+				"name": "Reach",
+				"row": 1,
+				"column": 3,
+				"uniques": [
+					"[+1] Range <for [All] units>",
+					"[+1] Sight <for [All] units>"
+				]
+			},
+			{
 				"name": "Blossom Complete",
 				"uniques": [
 					"Empire enters golden age",
+					"All healing effects doubled",
 					"May buy [Great General] units for [200] [Culture] [in all cities] at an increasing price ([50])"
 				]
 			}
