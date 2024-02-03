@@ -7,6 +7,7 @@
 		"uniques": [
 			"Only available <after adopting [Life]>",
 			"Can also be built on tiles adjacent to fresh water",
+			"Cannot be built on [Water] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "L"
@@ -56,8 +57,19 @@
 		"shortcutKey": "P"
 	},
 	{
+		"name": "Lily pad",
+		"terrainsCanBeBuiltOn": ["Coast","Lakes"],
+		"turnsToBuild":4,
+		"food": 1,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "Y"
+	},
+	{
 		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"turnsToBuild": 4,
 		"food": 1,
 		"uniques": [
 			"Only available <after adopting [Life]>",
@@ -77,16 +89,6 @@
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "M"
-	},
-	{
-		"name": "Quarry",
-		"turnsToBuild": 4,
-		"uniques": [
-			"Only available <after adopting [Death]>",
-			"Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+20 Gold]"
-		],
-		"shortcutKey": "Q"
 	},
 
 	{
@@ -111,6 +113,14 @@
 		"shortcutKey": "P"
 	},
 
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 4,
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
+		"shortcutKey": "O"
+	},
+
 	// Transportation
 	{
 		"name": "Road",
@@ -118,7 +128,8 @@
 		"turnsToBuild": 4,
 		"techRequired": "The Wheel",
 		"uniques": [
-			"Can be built outside your borders"
+			"Can be built outside your borders",
+			"Costs [1] [Gold] per turn when in your territory"
 		],
 		"shortcutKey": "R"
 	},
@@ -126,9 +137,10 @@
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
-		"techRequired": "The Wheel",
+		"techRequired": "Symbiosis",
 		"uniques": [
-			"Can be built outside your borders"
+			"Can be built outside your borders",
+			"Costs [2] [Gold] per turn when in your territory"
 		],
 		"shortcutKey": "R"
 	},
@@ -171,6 +183,15 @@
 		],
 		"shortcutKey": "X"
 	},
+
+	{
+        "name": "Repair",
+        "terrainsCanBeBuiltOn": ["Land","Water"],
+        "turnsToBuild": 2,
+        "uniques": ["Unbuildable"],
+        "shortcutKey": "E",
+        "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    },
 
 	// These are unique and have unique in-game checks related to them
 	{

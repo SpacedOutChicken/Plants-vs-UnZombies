@@ -1,8 +1,6 @@
 {
     "name": "Global uniques",
     "uniques": [
-        "[-1 Gold, +1 Production] from every [River]",
-
         "Improves movement speed on roads",
         "Roads connect tiles across rivers",
 

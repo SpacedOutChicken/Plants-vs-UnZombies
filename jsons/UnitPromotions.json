@@ -240,30 +240,133 @@
 
 
 	{
-		"name": "Sixth Sense",
+		"name": "Sixth Sense I",
 		"uniques": [
 			"Can see over obstacles",
-			"Can see invisible [non-air] units"
+			"[+1] Sight"
 		],
 		"unitTypes": [
-			"Floating Melee Plant",
-			"Floating Melee Undead",
-			"Floating Ranged Plant",
-			"Floating Ranged Undead",
 			"Melee Plant",
-			"Melee Undead",
 			"Ranged Plant",
-			"Ranged Undead"
+			"Heavy Plant",
+			"Siege Plant",
+			"Melee Undead",
+			"Ranged Undead",
+			"Heavy Undead",
+			"Siege Undead",
+			"Melee Water Undead",
+			"Ranged Water Undead",
+			"Submarine Undead",
+			"Melee Water Plant",
+			"Ranged Water Plant",
+			"Submarine Plant",
+			"Fighter Undead",
+			"Bomber Undead",
+			"Floating Melee Undead",
+			"Floating Ranged Undead",
+			"Fighter Plant",
+			"Bomber Plant",
+			"Floating Melee Plant",
+			"Floating Ranged Plant"
+		]
+	},
+	{
+		"name": "Sixth Sense II",
+		"prerequisites": ["Sixth Sense I"],
+		"uniques": [
+			"Can see invisible [non-air] units",
+			"[+1] Sight"
+		],
+		"unitTypes": [
+			"Melee Plant",
+			"Ranged Plant",
+			"Heavy Plant",
+			"Siege Plant",
+			"Melee Undead",
+			"Ranged Undead",
+			"Heavy Undead",
+			"Siege Undead",
+			"Melee Water Undead",
+			"Ranged Water Undead",
+			"Submarine Undead",
+			"Melee Water Plant",
+			"Ranged Water Plant",
+			"Submarine Plant",
+			"Fighter Undead",
+			"Bomber Undead",
+			"Floating Melee Undead",
+			"Floating Ranged Undead",
+			"Fighter Plant",
+			"Bomber Plant",
+			"Floating Melee Plant",
+			"Floating Ranged Plant"
+		]
+	},
+
+	{
+		"name": "Into Shadow",
+		"uniques": [
+			"Invisible to non-adjacent units <in [Rough terrain] tiles>",
+			"Double movement in [Rough terrain]"
+		],
+		"unitTypes": [
+			"Melee Undead",
+			"Ranged Undead",
+			"Heavy Undead",
+			"Siege Undead",
+			"Floating Melee Undead",
+			"Floating Ranged Undead"
 		]
 	},
 
 	{
 		"name": "Solar Power",
-		"uniques": ["Gain [1] [Gold] <upon ending a turn in a [Open terrain] tile>"]
+		"uniques": [
+			"Gain [1] [Gold] <upon ending a turn in a [Open terrain] tile>",
+			"Only available <after adopting [Luminosity]>",
+			"This Promotion is free"
+		],
+		"unitTypes": [
+			"Melee Plant",
+			"Ranged Plant",
+			"Heavy Plant",
+			"Siege Plant",
+			"Melee Water Plant",
+			"Ranged Water Plant",
+			"Submarine Plant",
+			"Floating Melee Plant",
+			"Floating Ranged Plant",
+			"Civilian"
+		]
+	},
+	{
+		"name": "Regeneration",
+		"uniques": [
+			"Heal this unit by [5] HP <upon losing at least [15] HP in a single attack>",
+			"Heal this unit by [5] HP <upon losing at least [30] HP in a single attack>",
+			"Only available <after adopting [The Dead Don't Die]>",
+			"This Promotion is free"
+		],
+		"unitTypes": [
+			"Melee Undead",
+			"Ranged Undead",
+			"Heavy Undead",
+			"Siege Undead",
+			"Melee Water Undead",
+			"Ranged Water Undead",
+			"Submarine Undead",
+			"Fighter Undead",
+			"Bomber Undead",
+			"Floating Melee Undead",
+			"Floating Ranged Undead"
+		]
 	},
 
 	{
 		"name": "Kill Count",
-		"uniques": ["Instantly provides [1] [Kills] <upon defeating a [Military] unit>"]
+		"uniques": [
+			"Instantly provides [1] [Kills] <upon defeating a [Military] unit>",
+			"Instantly provides [1] [Kills] <upon being defeated>"
+		]
 	}
 ]

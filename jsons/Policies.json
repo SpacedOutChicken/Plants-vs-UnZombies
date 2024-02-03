@@ -41,7 +41,7 @@
 				"column": 1,
 				"uniques": [
 					"[-33]% Gold cost of upgrading <for [Military] units>",
-					"[non-air] units gain the [Solar Power] promotion"
+					"[non-[Air]] units gain the [Solar Power] promotion"
 				]
 			},
 			{
@@ -49,7 +49,7 @@
 				"row": 2,
 				"column": 3,
 				"uniques": [
-					"[-25]% tile improvement construction time",
+					"[-25]% construction time for [All] improvements",
                     "Free [Worker] appears"
 				]
 			},
@@ -138,10 +138,19 @@
 				]
 			},
 			{
+				"name": "Lost in the Weeds",
+				"row": 1,
+				"column": 5,
+				"uniques": [
+					"Enemy [non-air] units must spend [1] extra movement points when inside your territory"
+				]
+			},
+			{
 				"name": "Blossom Complete",
 				"uniques": [
 					"Empire enters golden age",
 					"All healing effects doubled",
+					"May heal outside of friendly territory",
 					"May buy [Great General] units for [200] [Culture] [in all cities] at an increasing price ([50])"
 				]
 			}
@@ -151,9 +160,7 @@
 		"name": "Dust",
 		"era": "Seed era",
 		"uniques": [
-			"Only available <after adopting [Rot Complete]>",
-            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-			"Notified of new Barbarian encampments"
+			"Only available <after adopting [Rot Complete]>"
 		],
 		"policies": [
 			{
@@ -163,6 +170,33 @@
 				"uniques": [
 					"[+50]% Golden Age length",
 					"[+1] Movement <for [All] units> <during a Golden Age>"
+				]
+			},
+			{
+				"name": "Swarming",
+				"row": 1,
+				"column": 3,
+				"uniques": [
+					"[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
+					"[+50]% to Flank Attack bonuses"
+				]
+			},
+			{
+				"name": "Leader of the Pack",
+				"row": 1,
+				"column": 5,
+				"uniques": [
+					"Great General provides double combat bonus",
+					"[+2] Movement <for [Great General] units>"
+				]
+			},
+			{
+				"name": "The Dead Don't Die",
+				"row": 2,
+				"column": 1,
+				"uniques": [
+					"[Military] units gain the [Regeneration] promotion",
+					"Heals [25] damage if it kills a unit"
 				]
 			},
 			{
@@ -192,9 +226,17 @@
 				]
 			},
 			{
+				"name": "Cervelle de Veau",
+				"row": 1,
+				"column": 3,
+				"uniques": [
+					"Earn [100]% of killed [Military] unit's [Strength] as [Science]"
+				]
+			},
+			{
 				"name": "Rot Complete",
 				"uniques": [
-					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+					"Free Technology"
 				]
 			}
 		]
@@ -210,17 +252,17 @@
 		],
 		"policies": [
 			{
-				"name": "Death I",
+				"name": "Carnivory",
 				"row": 1,
 				"column": 1,
 				"uniques": [
-					"[-33]% maintenance costs <for [All] units>"
+					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
 				]
 			},
 			{
 				"name": "Death II",
 				"row": 1,
-				"column": 4,
+				"column": 3,
 				"uniques": [
 					"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately"
 				]
@@ -228,7 +270,7 @@
 			{
 				"name": "Death III",
 				"row": 1,
-				"column": 7,
+				"column": 5,
 				"uniques": [
 					"[+25]% Production when constructing [Military] units [in all cities]",
                     "New [Military] units start with [15] Experience [in all cities]"
@@ -236,16 +278,16 @@
 			},
 			{
 				"name": "Vengeance",
-				"row": 1,
-				"column": 10,
+				"row": 2,
+				"column": 2,
 				"uniques": [
 					"[+25]% Strength <for [Wounded] units>"
 				]
 			},
 			{
-				"name": "Death V",
-				"row": 1,
-				"column": 13,
+				"name": "Memento Mori",
+				"row": 2,
+				"column": 4,
 				"uniques": [
 					"[+1 Happiness] [in annexed cities]"
 				]

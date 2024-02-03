@@ -33,9 +33,9 @@
 		]
 	},
 	{
-		"name": "Plantae",
+		"name": "Treefolk",
 		"leaderName": "Leaf Erikson",
-		"adjective": ["Plant"],
+		"adjective": ["Tree"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
 		
@@ -44,7 +44,7 @@
 		"declaringWar": "You're disturbing us, prepare for war.",
 		"attacked": "I'll bury you.",
 		"defeated": "I congratulate you for your victory.",
-		"introduction": "Welcome. We are the Plantae",
+		"introduction": "Welcome. We are the Treefolk",
 		"neutralHello": "Hello.",
 		"hateHello": "It's you.",
 		"tradeRequest": "I offer you this exceptional proposition.",
@@ -147,8 +147,8 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing - to make this deal with me.",
 
-		"outerColor": [79,0,0],
-		"innerColor": [255,0,0],
+		"outerColor": [84,26,26],
+		"innerColor": [255,168,168],
 		"uniqueName": "The Blood Is the Life",
 		"uniques": [
 			"Starts with [Death] adopted",

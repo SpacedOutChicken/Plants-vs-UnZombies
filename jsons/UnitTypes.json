@@ -9,7 +9,6 @@
         "movementType": "Land",
         "uniques": [
             "Plant",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -18,7 +17,6 @@
         "movementType": "Land",
         "uniques": [
             "Plant",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -29,7 +27,6 @@
             "Plant",
             "Heavy",
             "No defensive terrain bonus",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -40,7 +37,6 @@
             "Plant",
             "Siege",
             "No defensive terrain bonus",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -49,7 +45,6 @@
         "movementType": "Land",
         "uniques": [
             "Undead",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -58,7 +53,6 @@
         "movementType": "Land",
         "uniques": [
             "Undead",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -69,7 +63,6 @@
             "Undead",
             "Heavy",
             "No defensive terrain bonus",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -80,7 +73,6 @@
             "Undead",
             "Siege",
             "No defensive terrain bonus",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -94,7 +86,6 @@
         "movementType": "Water",
         "uniques": [
             "Undead",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -103,7 +94,6 @@
         "movementType": "Water",
         "uniques": [
             "Undead",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -116,7 +106,6 @@
 			"Can enter ice tiles",
 			"Invisible to non-adjacent units",
 			"Can see invisible [Submarine] units",
-            "Can move after attacking",
             "Can move immediately once bought"
 		]
     },
@@ -125,7 +114,6 @@
         "movementType": "Water",
         "uniques": [
             "Plant",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -134,7 +122,6 @@
         "movementType": "Water",
         "uniques": [
             "Plant",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -147,7 +134,6 @@
 			"Can enter ice tiles",
 			"Invisible to non-adjacent units",
 			"Can see invisible [Submarine] units",
-            "Can move after attacking",
             "Can move immediately once bought"
 		]
     },
@@ -160,7 +146,6 @@
             "[+4] Sight",
             "Can see over obstacles",
             "Can perform Air Sweep",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -170,7 +155,6 @@
         "uniques": [
             "Flying",
             "Undead",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -187,7 +171,6 @@
 			"Eliminates combat penalty for attacking across a coast",
 			"Eliminates combat penalty for attacking over a river",
 			"May travel on Water tiles without embarking",
-            "Can move after attacking",
             "Can move immediately once bought"
 		]
     },
@@ -204,7 +187,6 @@
 			"Eliminates combat penalty for attacking across a coast",
 			"Eliminates combat penalty for attacking over a river",
 			"May travel on Water tiles without embarking",
-            "Can move after attacking",
             "Can move immediately once bought"
 		]
     },
@@ -217,7 +199,6 @@
             "[+4] Sight",
             "Can see over obstacles",
             "Can perform Air Sweep",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -227,7 +208,6 @@
         "uniques": [
             "Flying",
             "Plant",
-            "Can move after attacking",
             "Can move immediately once bought"
         ]
     },
@@ -244,7 +224,6 @@
 			"Eliminates combat penalty for attacking across a coast",
 			"Eliminates combat penalty for attacking over a river",
 			"May travel on Water tiles without embarking",
-            "Can move after attacking",
             "Can move immediately once bought"
 		]
     },
@@ -261,7 +240,6 @@
 			"Eliminates combat penalty for attacking across a coast",
 			"Eliminates combat penalty for attacking over a river",
 			"May travel on Water tiles without embarking",
-            "Can move after attacking",
             "Can move immediately once bought"
 		]
     },

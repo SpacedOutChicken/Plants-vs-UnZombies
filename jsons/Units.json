@@ -32,7 +32,7 @@
 	},
 	{
 		"name": "Sapling",
-		"uniqueTo": "Plantae",
+		"uniqueTo": "Treefolk",
 		"replaces": "Grunt",
 		"unitType": "Melee Plant",
 		"movement": 3,
@@ -66,6 +66,16 @@
 		"uniqueTo": "Specters",
 		"replaces": "Grunt",
 		"unitType": "Floating Melee Undead",
+		"movement": 3,
+		"strength": 8,
+		"cost": 20,
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Ghoul",
+		"uniqueTo": "Barbarians",
+		"replaces": "Grunt",
+		"unitType": "Melee Undead",
 		"movement": 3,
 		"strength": 8,
 		"cost": 20,
@@ -214,35 +224,257 @@
 		"attackSound": "artillery"
 	},
 
+	// hero units
+
 	{
-		"name": "Plant Hero",
+		"name": "Hero",
 		"unitType":"Melee Plant",
+		"upgradesTo": "Super Hero",
 		"cost": 20,
 		"strength": 30,
 		"movement": 3,
 		"uniques": [
-			"Only available <after adopting [Life]>",
-			"Only available <with [Kills]>",
-			"Instantly consumes [5] [Kills]",
+			"Only available <when above [9] [Kills]>",
+			"Instantly consumes [10] [Kills]",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Undead Hero",
+		"name": "Super Hero",
+		"unitType": "Melee Plant",
+		"requiredTech": "Putrefaction",
+		"upgradesTo": "Ultra Hero",
+		"obsoleteTech": "Fermentation",
+		"cost": 40,
+		"strength": 50,
+		"movement": 3,
+		"uniques": [
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Ultra Hero",
+		"unitType": "Melee Plant",
+		"requiredTech": "Fermentation",
+		"upgradesTo": "Hyper Hero",
+		"obsoleteTech": "Grass",
+		"cost": 80,
+		"strength": 60,
+		"movement": 3,
+		"uniques": [
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Hyper Hero",
+		"unitType": "Melee Plant",
+		"requiredTech": "Grass",
+		"upgradesTo": "Grand Champion",
+		"obsoleteTech": "The Red",
+		"cost": 160,
+		"strength": 70,
+		"movement": 3,
+		"uniques": [
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Grand Champion",
+		"unitType": "Melee Plant",
+		"requiredTech": "The Red",
+		"cost": 200,
+		"strength": 80,
+		"movement": 3,
+		"uniques": [
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Vampire Hero",
 		"unitType":"Melee Undead",
+		"uniqueTo": "Vampires",
+		"replaces": "Hero",
+		"upgradesTo": "Vampire Super Hero",
 		"cost": 20,
 		"strength": 30,
 		"movement": 3,
 		"uniques": [
-			"Only available <after adopting [Death]>",
-			"Only available <with [Kills]>",
-			"Instantly consumes [5] [Kills]",
-			"Never appears as a Barbarian unit"
+			"Only available <when above [9] [Kills]>",
+			"Instantly consumes [10] [Kills]"
+		],
+		"promotions": ["Into Shadow"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Vampire Super Hero",
+		"unitType": "Melee Undead",
+		"requiredTech": "Putrefaction",
+		"uniqueTo": "Vampires",
+		"replaces": "Super Hero",
+		"upgradesTo": "Vampire Ultra Hero",
+		"obsoleteTech": "Fermentation",
+		"cost": 40,
+		"strength": 50,
+		"movement": 3,
+		"uniques": [
+			"Unbuildable",
+			"Free [Vampire Hero] appears <upon being defeated> <with [25]% chance>"
+		],
+		"promotions": ["Into Shadow"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Vampire Ultra Hero",
+		"unitType": "Melee Undead",
+		"uniqueTo": "Vampires",
+		"replaces": "Ultra Hero",
+		"requiredTech": "Fermentation",
+		"upgradesTo": "Vampire Hyper Hero",
+		"obsoleteTech": "Grass",
+		"cost": 80,
+		"strength": 60,
+		"movement": 3,
+		"uniques": [
+			"Unbuildable",
+			"Free [Vampire Super Hero] appears <upon being defeated> <with [25]% chance>"
+		],
+		"promotions": ["Into Shadow"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Vampire Hyper Hero",
+		"unitType": "Melee Undead",
+		"uniqueTo": "Vampires",
+		"replaces": "Hyper Hero",
+		"requiredTech": "Grass",
+		"upgradesTo": "Vampire Grand Champion",
+		"obsoleteTech": "The Red",
+		"cost": 160,
+		"strength": 70,
+		"movement": 3,
+		"uniques": [
+			"Unbuildable",
+			"Free [Vampire Ultra Hero] appears <upon being defeated> <with [25]% chance>"
+		],
+		"promotions": ["Into Shadow"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Vampire Grand Champion",
+		"unitType": "Melee Undead",
+		"uniqueTo": "Vampires",
+		"replaces": "Grand Champion",
+		"requiredTech": "The Red",
+		"cost": 200,
+		"strength": 80,
+		"movement": 3,
+		"uniques": [
+			"Unbuildable",
+			"Free [Vampire Hyper Hero] appears <upon being defeated> <with [25]% chance>"
+		],
+		"promotions": ["Into Shadow"],
+		"attackSound": "nonmetalhit"
+	},
+
+	{
+		"name": "Zombie Grand Champion",
+		"unitType": "Heavy Undead",
+		"uniqueTo": "Zombies",
+		"replaces": "Grand Champion",
+		"requiredTech": "The Red",
+		"cost": 200,
+		"strength": 80,
+		"movement": 3,
+		"uniques": [
+			"Unbuildable"
 		],
 		"attackSound": "nonmetalhit"
 	},
 
+	{
+		"name": "Villain",
+		"unitType": "Ranged Plant",
+		"upgradesTo": "Super Villain",
+		"cost": 20,
+		"strength": 20,
+		"rangedStrength": 20,
+		"movement": 3,
+		"uniques": [
+			"Only available <when above [9] [Kills]>",
+			"Instantly consumes [10] [Kills]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Super Villain",
+		"unitType": "Ranged Plant",
+		"requiredTech": "Leaves",
+		"upgradesTo": "Ultra Villain",
+		"obsoleteTech": "Seeds",
+		"cost": 50,
+		"strength": 40,
+		"rangedStrength": 40,
+		"movement": 3,
+		"uniques": [
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Ultra Villain",
+		"unitType": "Ranged Plant",
+		"requiredTech": "Seeds",
+		"obsoleteTech": "Decomposition",
+		"upgradesTo": "Hyper Villain",
+		"cost": 80,
+		"strength": 50,
+		"rangedStrength": 50,
+		"movement": 3,
+		"uniques": [
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Hyper Villain",
+		"unitType": "Ranged Plant",
+		"requiredTech": "Decomposition",
+		"upgradesTo": "Final Boss",
+		"obsoleteTech":"The Red",
+		"cost": 100,
+		"strength": 70,
+		"rangedStrength": 70,
+		"movement": 3,
+		"uniques": [
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Final Boss",
+		"unitType": "Ranged Plant",
+		"requiredTech": "The Red",
+		"cost": 200,
+		"strength": 80,
+		"rangedStrength": 80,
+		"movement": 3,
+		"range": 3,
+		"uniques": [
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "cannon"
+	},
+	
 
 	{
 		"name": "Not-So-Great General",
@@ -282,6 +514,23 @@
 		]
 	},
 
+	// bombs
+
+	{
+		"name": "Cherry Bomb",
+		"unitType": "Bomb",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 10,
+		"cost": 600,
+		"uniques": [
+			"Only available <after adopting [Life]>",
+			"[-100]% maintenance costs"
+		],
+		"requiredTech": "Dispersal",
+		"attackSound": "missile"
+	},
 
 	//  Great People
 	{
@@ -292,26 +541,24 @@
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]",
+			"Can be earned through combat",
 			"Unbuildable",
 			"Uncapturable"
 		],
 		"movement": 3
 	},
 	{
-		"name": "Boss Zombie",
-		"uniqueTo": "Zombies",
-		"replaces": "Great General",
-		"unitType": "Heavy Undead",
+		"name": "King Zombie",
+		"unitType": "Civilian",
 		"uniques": [
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Great Person - [War]",
+			"Can be earned through combat",
 			"Unbuildable",
 			"Uncapturable"
 		],
-		"strength": 20,
-		"movement": 3,
-		"attackSound": "nonmetalhit"
+		"movement": 3
 	},
 	{
 		"name": "Necromancer",
@@ -322,7 +569,9 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Invisible to non-adjacent units <in [Rough terrain] tiles>",
 			"Great Person - [War]",
+			"Can be earned through combat",
 			"Unbuildable",
 			"Uncapturable",
 			"Can pass through impassable tiles",
@@ -342,9 +591,11 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Ignores terrain cost",
+			"Invisible to non-adjacent units <in [Rough terrain] tiles>",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Free [Discount] appears <upon being defeated> <with [25]% chance>",
 			"Great Person - [War]",
+			"Can be earned through combat",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -363,6 +614,7 @@
 			"Unit will heal every turn, even if it performs an action",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]",
+			"Can be earned through combat",
 			"Unbuildable",
 			"Uncapturable"
 		],

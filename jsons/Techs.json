@@ -140,6 +140,7 @@
                       "name": "Fermentation",
                       "row": 7,
                       "prerequisites": ["Toxins", "Wood"],
+                      "uniques": ["Enables conversion of city production to [Science]"],
                       "quote": "Bubbly, bubbly."
               }
           ]     
